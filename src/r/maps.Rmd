@@ -1,0 +1,41 @@
+---
+title: "Untitled"
+author: "John Brandt"
+date: "4/2/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(rgdal)
+library(sp)
+library(sf)
+library(ggplot2)
+require(maptools)
+require(rgeos)
+library(broom)
+library(dplyr)
+
+mexico <- readOGR("../data/mexico.geojson")
+
+```
+```{r}
+mexico <- rgeos::gBuffer(mexico, byid=TRUE, width=0)
+mexico <- invisible(tidy(mexico, region="name"))
+```
+
+```{r}
+events <- read.csv("../data/mexico2.csv")
+```
+
+
+```{r}
+ggplot()+
+  geom_polygon(data=mexico, aes(x=long, y=lat, group=group), fill="white", color="grey60", size=0.3)+
+  theme_void(base_size=9)+
+  geom_point(data = events, aes(x= LONG, y = LAT), color = "grey30", size = 0.8)
+```
+

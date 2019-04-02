@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <link rel="stylesheet" href="lib/css/ol.css" />
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="lib/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="lib/css/leaflet.css" />
+    <link rel="stylesheet" href="lib/css/L.Control.Basemaps.css"/>
+    <link rel="stylesheet" href="lib/css/mainpage.css?v={r911}"/>
+    <link rel="stylesheet" href="lib/css/bootstrap-toggle.css" />
+    <link rel="stylesheet" href="lib/css/dropdown.css" />
+    <link rel="stylesheet" href="lib/css/transition.css" />
+
+    <title>UESI</title>
+
+
+
+
+    <script type="text/javascript" src="lib/js/ol.js"></script>
+    <script src="lib/js/leaflet-src.js"></script>
+    <script src="lib/js/leaflet.ajax.js"></script>
+    <script src="lib/js/jquery-3.1.1.min.js"></script>
+    <script src="lib/js/spin.js"></script>
+    <script src="lib/js/leaflet.spin.js"></script>
+    <script src="lib/js/turf.min.js" charset="utf-8"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script src="lib/js/L.Control.Basemaps.js"></script>
+    <script src="lib/js/geotiff.js"></script>
+    <script src="lib/js/plotty.js"></script>
+    <script src="lib/js/leaflet-geotiff.js"></script>
+    <script src="https://d3js.org/d3.v2.js"></script>
+    <script src="lib/js/bootstrap-toggle.js"></script>
+    <script src="lib/js/dropdown.min.js"></script>
+    <script src="lib/js/transition.min.js"></script>
+
+
+
+    <!-- BRING IN THE JAVASCIPT HERE -->
+
+
+
+    <script type="text/javascript" src="lib/mapindex.js"></script>
+    <!-- <script type="text/javascript" src="lib/map1.js"></script> -->
+
+
+
+  </head>
+  <body>
+  <!--###############################
+  ######### POPUP ON PAGE LOAD ######
+  ################################-->
+
+  <div class="modal fade" id="PageModal" tabindex="-1" role="dialog" aria-labelledby="Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                 <h4 class="modal-title" id="Modal">GDELT Events</h4>
+
+            </div>
+            <div class="modal-body">
+                <!--<p>Explore how environmental performance and social inclusion vary on the neighborhood scale.</p>
+                <p>Choose a city from the dropdown on the top and an indicator from the list on the left.</p>
+                <p>Raw data can be shown instead by clicking the toggle on the navigation bar. </p>
+                <p>The base map can be switched to imagery by clicking the globe on the bottom-left.</p>
+                <p>Compare two indicators by clicking the "Compare Two Indicators" button on the top-right.</p>-->
+                <img src="includes/images/test.png" style="max-width:100%">
+            </div>
+            <div class="modal-footer" style="margin: 0 auto;">
+                <button type="button" class="btn btn-primary" style="margin: 0 auto;" data-dismiss="modal">Get Started</button>
+            </div>
+        </div>
+    </div>
+  </div>
+
+    <div class="container">
+      <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <img src="includes/images/URBAN_Logo_BW.png" alt="" width="150" height="50" align = "right" style="margin-right:140px">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+          </div>
+
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <!--##########################
+              ######### CITY SELECTOR ######
+              ###########################-->
+              <div style="width:175px; margin-right:10px; margin-top:7px">
+                <select name="Select City" class="ui fluid search dropdown" style="margin-right:30px; padding-right:30px;" id="selectBox"; onchange="changeFunc(value);">
+                  <option value="">Select city</option>
+                </select>
+              </div>
+              <!--<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Choose a City <b class="caret"></b></a>
+                <ul class="dropdown-menu scrollable-menu" role="menu" id="cityDropdown">
+                  <li><a onclick="amsterdam()">Amsterdam</a></li>
+                  <li><a onclick="bangalore()">Bangalore</a></li>
+                  <li><a onclick="bangkok()">Bangkok</a></li>
+                  <li><a onclick="beijing()">Beijing</a></li>
+                  <li><a onclick="berlin()">Berlin</a></li>
+                  <li><a onclick="casablanca()">Casablanca</a></li>
+                  <li><a onclick="delhi()">Delhi</a></li>
+                  <li><a onclick="hochiminh()">Ho Chi Minh</a></li>
+                  <li><a onclick="jakarta()">Jakarta</a></li>
+                  <li><a onclick="johannesburg()">Johannesburg</a></li>
+                  <li><a onclick="losangeles()">Los Angeles</a></li>
+                  <li><a onclick="london()">London</a></li>
+                  <li><a onclick="manila()">Manila</a></li>
+                  <li><a onclick="mexico()">Mexico City</a></li>
+                  <li><a onclick="newyork()">New York</a></li>
+                  <li><a onclick="paris()">Paris</a></li>
+                  <li><a onclick="saopaulo()">Sao Paulo</a></li>
+                  <li><a onclick="seoul()">Seoul</a></li>
+                  <li><a onclick="singapore()">Singapore</a></li>
+                  <li><a onclick="tokyo()">Tokyo</a></li>
+                  <li><a onclick="vancouver()">Vancouver</a></li>
+                </ul>
+              </li>-->
+            </ul>
+            <!--<style>
+              .toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 9px; }
+              .toggle.ios .toggle-handle { border-radius: 9px; }
+              div#bs-example-navbar-collapse-1 span#a {
+                display: inline;
+              }
+
+              div#bs-example-navbar-collapse-1:hover span#a {
+                display: none;
+              }
+
+              div#bs-example-navbar-collapse-1 span#b {
+                display: none;
+              }
+
+              div#bs-example-navbar-collapse-1:hover span#b {
+                display: inline;
+              }
+            </style>-->
+            <!--<label class="checkbox-inline" style="position:absolute; bottom:15%">
+              <input id="toggle-event" type="checkbox" checked data-toggle="toggle" data-on="<span id='a'>Toggle View</span><span id='b'>Indicator</span>" data-style='ios' data-off="<span id='a'>Toggle View</span><span id='b'>Raw</span>">
+            </label>-->
+
+
+            <!--<form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>-->
+
+
+
+            <ul class="nav navbar-nav navbar-right">
+              <!-- ### Remove splitscreen for Angel's 11-20 demonstration -->
+              <li><a href = "splitscr.html">Compare Two Indicators</a></li>
+              <li><a onclick="help_me()">Help</a></li>
+              <!--<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">City <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Amsterdam</a></li>
+                  <li><a href="#">Bangkok</a></li>
+                  <li><a href="#">Beijing</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>-->
+              <img src="images/ddl_logo_2019.png" alt="" width="100" height="50" align = "right" style="margin-right:20px">
+            </ul>
+            </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+        </div>
+      </nav>
+
+
+      <div class="navbar-offset"></div>
+
+
+      <div id="map">
+      </div>
+
+      <div class="row main-row">
+        <div class="col-sm-4 col-md-3 sidebar sidebar-left pull-left">
+          <div class="panel-group sidebar-body" id="accordion-left">
+            <!--<div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" href="#properties">
+                    <i class="fa fa-list-alt"></i>
+                    About this indicator
+                  </a>
+                </h4>
+              </div>
+              <div id="properties" class="panel-collapse collapse">
+                <div class="panel-body" id="overview">
+                  <p>
+                  Click on an indicator above to map various demographic and environmental variables.
+                  </p>
+                  <script>
+                  if (current_indicator=="PM25") {
+                    document.getElementById("overview").innerHTML = "hello"
+                  }
+                  </script>
+                  <p>
+                  Click on any neighborhood to explore the data.
+                  </p>
+                </div>
+              </div>
+            </div>-->
+            <div id="help" class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" href="#layers">
+                    <i class="fa fa-list-alt"></i>
+                    Choose an Indicator
+                  </a>
+                </h4>
+              </div>
+              	<div id="MainMenu">
+	              <div class="list-group panel">
+	      			<a href="#demo3" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Demographics</a>
+	      			<div class="collapse" id="demo3">
+	        			<a onclick="incstyle()" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Income standardized to 2005 International Dollars">Income</a>
+	        			<!--<a onclick="povstyle()" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Placeholder">Poverty</a>
+                <a onclick="unempstyle()" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Placeholder">Unemployed</a>-->
+	        			<a onclick="popstyle()" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Population from city-reported census data">Population</a>
+	      			</div>
+	      			<a href="#demo4" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Air</a>
+				      <div class="collapse" id="demo4">
+                <a onclick="NO2style_set()" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Average exposure to NO2 in micrograms/m3">Average Nitrogen Dioxide Concentration</a>
+				        <a onclick="PM25style_set()" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Average exposure to PM2.5 in micrograms/m3">Average Fine Particulate Matter Concentration</a>
+				        <a onclick="PM25EXstyle_set()" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Average exceedance of 10, 15, 25, and 35 micrograms/m3 (percent)">Average Exceedence of Fine Particulate Matter</a>
+				        <!--<a class="list-group-item" data-toggle="tooltip" data-placement="right" title="Placeholder">PM 2.5 Equity</a>
+				        <a class="list-group-item" data-toggle="tooltip" data-placement="right" title="Placeholder">NO2 Equity</a>-->
+				  	  </div>
+				  	<a href="#demo5" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Climate</a>
+				      <div class="collapse" id="demo5">
+				        <a onclick="uhistyle()" class="list-group-item" data-toggle="tooltip" data-placement="right" title="14-yr mean difference in daytime and nightime surface temperatures between urban and non-urban land cover">Urban Heat Island (UHI)</a>
+                <a onclick="UHINIGHTstyle_set()" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Increase in temperature in urban areas because of the built environment">Night UHI</a>
+				       <!-- <a class="list-group-item" data-toggle="tooltip" data-placement="right" title="Placeholder">UHI Intensity</a>
+				        <a class="list-group-item" data-toggle="tooltip" data-placement="right" title="Placeholder">UHI Equity</a> -->
+				        <a title="Climate Policy Scorecard" data-toggle="popover" data-content="
+                  <div id='SubMenu'>
+                  <div class='list-group panel'>
+                    <a href='#score1' class='list-group-item list-group-item-success' data-toggle='collapse' data-parent='#SubMenu'>Emission Reductions
+                      <div id='emissiontop' class='indicatortop'><script>createChart('emissiontop')</script></div></a>
+                    <div class='collapse' id='score1'>
+                      <a class='list-group-item' id='pre2020a'>Pre-2020<span id='pre2020' style='float: right; width: 33%; text-align: right;'><script>emissions('pre2020')</script></span></a>
+
+                      <a class='list-group-item' id='202030a'>2020-2030<span id='202030' style='float: right; width: 33%; text-align: right;'><script>emissions('202030')</script></span></a>
+
+                      <a class='list-group-item' id='post2030a'>Post-2030<span id='post2030' style='float: right; width: 33%; text-align: right;'><script>emissions('post2030')</script></span></a>
+                     </div>
+                     <a href='#score2' class='list-group-item list-group-item-success' data-toggle='collapse' data-parent='#SubMenu'>Sectoral Mitigation
+                      <div id='sectoraltop' class='indicatortop'><script>createChart('sectoraltop')</script></div></a>
+                    <div class='collapse' id='score2'>
+                      <a class='list-group-item' id='bandc'>Building and Construction <div id='building' class='indicator'><script>createChart('building')</script></div></a>
+                      <a class='list-group-item'>Industrial
+                        <div id='industrial' class='indicator'><script>createChart('industrial')</script></div></a>
+                      <a class='list-group-item'>Residential
+                        <div id='residential' class='indicator'><script>createChart('residential')</script></div></a>
+                      <a class='list-group-item'>Waste
+                        <div id='waste' class='indicator'><script>createChart('waste')</script></div></a>
+                      <a class='list-group-item'>Transport
+                        <div id='transport' class='indicator'><script>createChart('transport')</script></div></a>
+                      <a class='list-group-item'>Electricity and Energy
+                        <div id='electricity' class='indicator'><script>createChart('electricity')</script></div></a>
+                      <a class='list-group-item'>Implementation
+                        <div id='implementation' class='indicator'><script>createChart('implementation')</script></div></a>
+                      <a class='list-group-item'>Others
+                        <div id='other' class='indicator'><script>createChart('other')</script></div></a>
+                     </div>
+                     <a href='#score3' class='list-group-item list-group-item-success' data-toggle='collapse' data-parent='#SubMenu'>Adaption
+                      <div id='adaptationtop' class='indicatortop'><script>createChart('adaptationtop')</script></div></a>
+                    <div class='collapse' id='score3'>
+                      <a class='list-group-item'>Adaptation
+                        <div id='adaptation' class='indicator'><script>createChart('adaptation')</script></div></a>
+                      <a class='list-group-item'>Infrastructure
+                        <div id='infrastructure2' class='indicator'><script>createChart('infrastructure2')</script></div></a>
+                      <a class='list-group-item'>Institution
+                        <div id='institution' class='indicator'><script>createChart('institution')</script></div></a>
+                      <a class='list-group-item'>Social
+                        <div id='social2' class='indicator'><script>createChart('social2')</script></div></a>
+                      <a class='list-group-item'>Other
+                        <div id='other2' class='indicator'><script>createChart('other2')</script></div></a>
+                      <a class='list-group-item'>Implementation
+                        <div id='implementation2' class='indicator'><script>createChart('implementation2')</script></div></a>
+                     </div>
+                     <a href='#score4' class='list-group-item list-group-item-success' data-toggle='collapse' data-parent='#SubMenu'>Monitoring, Evaluation and Finance
+                      <div id='mefinancetop' class='indicatortop'><script>createChart('mefinancetop')</script></div></a>
+                    <div class='collapse' id='score4'>
+                      <a class='list-group-item'>Mitigation Inventory
+                         <div id='mitigationinv' class='indicator'><script>createChart('mitigationinv')</script></div></a>
+                      <a class='list-group-item'>Mitigation ME
+                       <div id='mitigationme' class='indicator'><script>createChart('mitigationme')</script></div></a></a>
+                      <a class='list-group-item'>Adaptation ME
+                         <div id='adaptationme' class='indicator'><script>createChart('adaptationme')</script></div></a></a>
+                      <a class='list-group-item'>Finance
+                         <div id='finance' class='indicator'><script>createChart('finance')</script></div></a></a>
+                     </div>
+                     <a href='#score5' class='list-group-item list-group-item-success' data-toggle='collapse' data-parent='#SubMenu'>Total Score
+                      <div id='totaltop' class='indicatortop'><script>createChart('totaltop')</script></div></a>
+                    <div class='collapse' id='score5'>
+
+                     </div>
+                    </div>
+                  " data-html="true"
+                  class="list-group-item" data-toggle="tooltip" data-placement="right" title="Scorecard of a city's mitigation and adaptation measures">Climate Policy</a>
+				  	  </div>
+				  	<a href="#demo6" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Tree Cover</a>
+				      <div class="collapse" id="demo6">
+				        <a onclick="treestyle()" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Percentage of tree cover canopy loss, 2000-2016">Tree Cover Loss</a>
+				        <a onclick="TreeCovStyle_set()" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Percentage of tree cover canopy in the entire neighborhood">Tree Cover</a>
+                <a onclick="TreeCapstyle_set()" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Square meters of tree cover per capita in 2016">Tree Cover per Capita</a>
+				  	  </div>
+				  	<a href="#demo7" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Water</a>
+				      <div class="collapse" id="demo7">
+				        <a onclick="WATSTRESSstyle_set()" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Surface water withdrawal ratio">Water Stress</a>
+				        <a onclick="WATTREATstyle_set()" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Percent of wastewater treated">Percent of Wastewater Treated</a>
+				  	  </div>
+				  	<a href="#demo8" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Transportation</a>
+				      <div class="collapse" id="demo8">
+				        <a onclick="PubTransstyle_set()" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Distance in meters to public transportation (rail, mass transit, and bus)">Distance to Public Transit</a>
+				        <!--<a class="list-group-item" data-toggle="tooltip" data-placement="right" title="Placeholder">Public Transit Equity</a>-->
+                <a onclick="PubTranscovstyle_set()" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Public transit coverage">Public Transit Coverage</a>
+				  	  </div>
+				  </div>
+    			</div>
+              </div>
+            </div>
+              <!--###############################
+              ######### HOW TO USE WEBSITE ######
+              ################################-->
+
+          </div>
+        </div>
+      </div>
+      <div class="mini-submenu mini-submenu-left pull-left">
+        <i class="fa fa-list-alt"></i>
+      </div>
+    </div>
+
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
+  </body>
+
+</html>

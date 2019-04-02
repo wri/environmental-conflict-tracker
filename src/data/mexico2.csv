@@ -1,0 +1,698 @@
+LAT,LONG,HUMANNAME,COUNT
+32.5333,-117.017,"Zaragoza, Baja California, Mexico",6527
+19.4342,-99.1386,"Mexico City, Distrito Federal, Mexico",4826
+18.4917,-93.75,"Sinaloa, Tabasco, Mexico",3084
+31.7333,-106.483,"Paso Del Norte, Méco, Mexico",2739
+32.5175,-115.235,"Jalisco, Baja California, Mexico",1588
+24.9086,-107.594,"Tamaulipas, Sinaloa, Mexico",1281
+20.6667,-103.333,"Guadalajara, Jalisco, Mexico",1074
+16.5,-91.75,"Chiapas, Chiapas, Mexico",874
+14.6833,-92.15,"Ciudad Hidalgo, Chiapas, Mexico",834
+16.85,-99.9167,"Acapulco, Guerrero, Mexico",827
+20.6167,-87.0667,"Playa Del Carmen, Quintana Roo, Mexico",817
+27.5,-99.5167,"Nuevo Laredo, Tamaulipas, Mexico",752
+20.8667,-88.6333,"Quintana Roo, YucatáMX, Mexico",717
+19.05,-98.2,"Puebla, Puebla, Mexico",679
+17.9167,-93.8833,"Michoacan, Tabasco, Mexico",639
+14.9,-92.2833,"Tapachula, Chiapas, Mexico",571
+19.1667,-101.158,"Fronteras, Michoacáde Ocampo, Mexico",533
+30.7833,-108.633,"Pancho Villa, Chihuahua, Mexico",471
+19.6011,-99.0525,"Morelos, Méco, Mexico",467
+20.6167,-105.25,"Puerto Vallarta, Jalisco, Mexico",428
+16.4167,-93.7833,"Baja California, Chiapas, Mexico",411
+25.6667,-100.317,"Monterrey, Nuevo LeóX, Mexico",402
+28.6,-111.383,"Coahuila, Sonora, Mexico",303
+17.85,-100.367,"Iguala, Guerrero, Mexico",289
+17.55,-98.75,"Ayotzinapa, Guerrero, Mexico",265
+24.4458,-99.8206,"Guadalupe, Nuevo LeóX, Mexico",248
+21.0333,-103.117,"Las Cruces, Jalisco, Mexico",239
+21.9583,-102.467,"El Centro, Aguascalientes, Mexico",230
+21.1375,-104.9,"Calexico, Nayarit, Mexico",228
+16.4667,-93.2556,"Nuevo Leon, Chiapas, Mexico",226
+18.4556,-96.7042,"Chilapa, Veracruz-Llave, Mexico",206
+18.7333,-97.0667,"Tequila, Veracruz-Llave, Mexico",201
+24,-107.033,"Culiacan, Sinaloa, Mexico",198
+31.9,-114.95,"Colorado River, Mexico (general), Mexico",168
+31.6667,-113.3,"Nayarit, Sonora, Mexico",163
+18.2083,-93.3417,"Reforma, Tabasco, Mexico",159
+17.55,-99.5,"Chilpancingo, Guerrero, Mexico",159
+20.1333,-99.2333,"Tlahuelilpan, Hidalgo, Mexico",157
+28.7,-100.517,"Piedras Negras, Coahuila de Zaragoza, Mexico",157
+25.8333,-111.833,"Baja California Sur, Baja California Sur, Mexico",150
+20.125,-87.45,"Tulum, Quintana Roo, Mexico",149
+30.45,-110.7,"Soldado, Sonora, Mexico",146
+22.7833,-102.583,"Zacatecas, Zacatecas, Mexico",144
+24.9667,-103.85,"Centro, Durango, Mexico",142
+32.6,-114.922,"Ciudad Victoria, Baja California, Mexico",136
+28.2833,-100.917,"Rio Bravo, Coahuila de Zaragoza, Mexico",135
+22.8833,-109.9,"Cabo San Lucas, Baja California Sur, Mexico",133
+18.9167,-99.25,"Cuernavaca, Morelos, Mexico",127
+17.2667,-97.6833,"Tlaxiaco, Oaxaca, Mexico",125
+16.5936,-96.5025,"Progreso, Oaxaca, Mexico",112
+31.2667,-110.417,"Alamogordo, Sonora, Mexico",107
+18.6,-103.717,"Cabeza Prieta, Michoacáde Ocampo, Mexico",100
+31.8667,-116.617,"Ensenada, Baja California, Mexico",100
+17.6333,-101.55,"Zihuatanejo, Guerrero, Mexico",94
+19.7,-101.117,"Morelia, Michoacáde Ocampo, Mexico",94
+16.35,-94.2,"Tapanatepec, Oaxaca, Mexico",91
+28.7333,-106.1,"Carolinas, Chihuahua, Mexico",91
+20.6,-100.383,"Queretaro, Queréro de Arteaga, Mexico",89
+28.5,-111.417,"El Mayo, Sonora, Mexico",89
+19.6847,-99.1292,"Tultepec, Méco, Mexico",88
+25.7667,-108.967,"Los Mochis, Sinaloa, Mexico",84
+24.3333,-107.4,"Rosarito, Sinaloa, Mexico",83
+15.4333,-92.9,"Mapastepec, Chiapas, Mexico",83
+17.9833,-92.9167,"Villahermosa, Tabasco, Mexico",82
+27.9333,-110.9,"Guaymas, Sonora, Mexico",81
+26.6167,-112.45,"Mezcal, Baja California Sur, Mexico",79
+27.0333,-108.4,"Urique, Chihuahua, Mexico",77
+19.8639,-98.3264,"La Union, Hidalgo, Mexico",77
+32.55,-117.133,"Playas De Tijuana, Baja California, Mexico",74
+20.4472,-98.5708,"Los Alamos, Hidalgo, Mexico",74
+15.15,-92.4667,"Huixtla, Chiapas, Mexico",72
+16.4333,-95.0167,"Juchitan, Oaxaca, Mexico",71
+19.1833,-101.25,"La Concepcion, Michoacáde Ocampo, Mexico",71
+31.45,-111.517,"Sasabe, Sonora, Mexico",70
+27.3833,-108.1,"Vaquita, Chihuahua, Mexico",70
+20.65,-103.317,"Tlaquepaque, Jalisco, Mexico",70
+15.7,-93.2333,"Pijijiapan, Chiapas, Mexico",67
+19.85,-90.5333,"Campeche, Campeche, Mexico",64
+21.0806,-99.0236,"Palomas, Hidalgo, Mexico",63
+31.85,-112.833,"Sonoyta, Sonora, Mexico",62
+20.2,-99.4333,"Palo Alto, Hidalgo, Mexico",61
+23.8167,-106.683,"Mapuche, Sinaloa, Mexico",61
+17.0597,-97.0031,"Tierra Caliente, Oaxaca, Mexico",61
+17.2833,-100.8,"Guayabillo, Guerrero, Mexico",58
+31.75,-107.25,"La Linea, Chihuahua, Mexico",58
+19.1167,-104.393,"Sierra Madre, Colima, Mexico",57
+29.3667,-111.55,"Sayula, Sonora, Mexico",56
+25.4167,-101,"Saltillo, Coahuila de Zaragoza, Mexico",56
+20.4667,-103.45,"Tlajomulco De Zuniga, Jalisco, Mexico",55
+19.5333,-96.9167,"Xalapa, Veracruz-Llave, Mexico",55
+18.95,-89.2333,"Miguel Aleman, Campeche, Mexico",55
+14.9333,-92.3,"Viva Mexico, Chiapas, Mexico",54
+17.5167,-101.267,"Petatlan, Guerrero, Mexico",54
+18.3167,-100.65,"Ciudad Altamirano, Guerrero, Mexico",52
+27.1667,-101.75,"Mariposa, Coahuila de Zaragoza, Mexico",52
+18.1833,-98.8,"Santa Monica, Puebla, Mexico",52
+26.05,-97.8833,"Rio Rico, Tamaulipas, Mexico",51
+19.5269,-99.2217,"Tlalnepantla, Méco, Mexico",51
+21.65,-104.5,"La Cucaracha, Nayarit, Mexico",51
+19.2536,-99.6078,"Metepec, Méco, Mexico",51
+18.7333,-102.733,"Aguililla, Michoacáde Ocampo, Mexico",50
+19.4667,-103.3,"Tecalitlan, Jalisco, Mexico",50
+19.2883,-99.6672,"Toluca, Méco, Mexico",50
+19.8,-97.2833,"Guadalupe Victoria, Veracruz-Llave, Mexico",49
+19.975,-88.6833,"Tabasco, Quintana Roo, Mexico",49
+16.8833,-95.0333,"Matias Romero, Oaxaca, Mexico",49
+26.95,-108.3,"La Junta, Sinaloa, Mexico",48
+18.6167,-100.183,"Tlatlaya, Méco, Mexico",48
+25.8167,-99.5167,"Dona Ana, Nuevo LeóX, Mexico",47
+21.5,-104.9,"Tepic, Nayarit, Mexico",47
+32.5667,-116.633,"Tecate, Baja California, Mexico",46
+19.7222,-97.2083,"Gutierrez Zamora, Veracruz-Llave, Mexico",45
+21.8833,-102.3,"Aguascalientes, Aguascalientes, Mexico",45
+26.7333,-106.317,"La Tuna, Chihuahua, Mexico",45
+18.1181,-96.0014,"Benito Juarez, Oaxaca, Mexico",45
+21.2,-86.7167,"Isla Mujeres, Quintana Roo, Mexico",44
+19.1944,-98.3292,"Los Pinos, Tlaxcala, Mexico",44
+18.2333,-96.4333,"Nacional, Oaxaca, Mexico",44
+17.2333,-92.3333,"Yajalon, Chiapas, Mexico",43
+16.5781,-95.1014,"Ixtepec, Oaxaca, Mexico",43
+19.3139,-98.2417,"Tlaxcala, Tlaxcala, Mexico",43
+30.7667,-108.417,"Ignacio Zaragoza, Chihuahua, Mexico",43
+19.15,-102.7,"Felipe Carrillo Puerto, Michoacáde Ocampo, Mexico",42
+22.5667,-103.733,"Tonala, Jalisco, Mexico",42
+20.9167,-100.75,"San Miguel De Allende, Guanajuato, Mexico",41
+20.5667,-103.15,"Puente Grande, Jalisco, Mexico",41
+22.5,-98.6,"Los Aztecas, Tamaulipas, Mexico",41
+18.3333,-100.65,"Coyuca De Catalan, Guerrero, Mexico",40
+16.2833,-97.8167,"Santiago Jamiltepec, Oaxaca, Mexico",40
+27.8333,-108.25,"Creston, Chihuahua, Mexico",40
+32.45,-116.467,"Ruidoso, Baja California, Mexico",39
+24.9833,-104.267,"El Chaparral, Durango, Mexico",38
+18.5,-88.3,"Chetumal, Quintana Roo, Mexico",38
+27.9167,-110.6,"Chiltepin, Sonora, Mexico",38
+17.6708,-93.7292,"Miguel Hidalgo, Tabasco, Mexico",37
+22.8667,-104.433,"Agua Prieta, Durango, Mexico",37
+23.05,-109.683,"San Jose Del Cabo, Baja California Sur, Mexico",36
+19.5167,-98.8833,"Texcoco, Méco, Mexico",36
+21.05,-105.15,"Juan Sanchez, Nayarit, Mexico",36
+18.1667,-96.1,"Ciudad Miguel Aleman, Veracruz-Llave, Mexico",36
+19.1667,-98.85,"Tenango Del Aire, Méco, Mexico",36
+24.0833,-99.1167,"El Barretal, Tamaulipas, Mexico",35
+18.9333,-99.725,"Porfirio Diaz, Méco, Mexico",35
+15.8436,-96.3267,"Huatulco, Oaxaca, Mexico",35
+24.0333,-104.983,"San Carlos, Durango, Mexico",35
+20.45,-100.617,"Apaseo El Alto, Guanajuato, Mexico",34
+17.1,-93.8583,"Luis Echeverria, Chiapas, Mexico",34
+21.2831,-100.735,"La Esperanza, Guanajuato, Mexico",34
+20.7,-105.2,"Ixtapa, Jalisco, Mexico",33
+22.3583,-102.242,"San Jacinto, Aguascalientes, Mexico",33
+21.9667,-102.433,"San Isidro, Aguascalientes, Mexico",33
+32.4631,-114.777,"San Luis Rio Colorado, Sonora, Mexico",33
+21.15,-89.4833,"Ixil, YucatáMX, Mexico",32
+25.3833,-98.3333,"Camarillo, Tamaulipas, Mexico",32
+27.3667,-105.2,"Las Virginias, Chihuahua, Mexico",32
+19.2833,-99.1667,"Tlalpan, Distrito Federal, Mexico",32
+32.25,-114.5,"Sonoran Desert, Mexico (general), Mexico",32
+19.3333,-101.917,"Taretan, Michoacáde Ocampo, Mexico",32
+25,-90,"Gulf Of Mexico, Mexico (general), Mexico",30
+19.3511,-99.0519,"Iztapalapa, Distrito Federal, Mexico",30
+30.65,-106.717,"Miguel Angel, Chihuahua, Mexico",30
+17.8083,-93.7,"Modelo, Tabasco, Mexico",30
+23.7333,-103.533,"Emiliano Zapata, Zacatecas, Mexico",30
+19.55,-103.4,"Tuxpan, Jalisco, Mexico",30
+20.8,-103.317,"El Mexicano, Jalisco, Mexico",30
+23.7086,-100.414,"Alvaro Obregon, Nuevo LeóX, Mexico",29
+23.9667,-98.2333,"Jesus Ramirez, Tamaulipas, Mexico",29
+25.0167,-105.467,"El Bronco, Durango, Mexico",29
+17.2314,-95.0611,"Donaji, Oaxaca, Mexico",29
+17,-95,"Isthmus Of Tehuantepec, Mexico (general), Mexico",28
+20.7714,-105.538,"Punta Mita, Nayarit, Mexico",28
+26.5625,-100.688,"Los Fresnos, Nuevo LeóX, Mexico",27
+17.5167,-93.3167,"Esquipulas, Chiapas, Mexico",26
+17.4833,-91.4333,"Tenosique, Tabasco, Mexico",26
+24.0833,-104.95,"Salvador Allende, Durango, Mexico",26
+21.1431,-101.023,"Palmilla, Guanajuato, Mexico",26
+24.3833,-106.05,"Ciudad, Durango, Mexico",26
+17.6833,-94.6167,"La Merced, Veracruz-Llave, Mexico",26
+17.0936,-97.7597,"Lazaro Cardenas, Oaxaca, Mexico",25
+18.4167,-89.15,"Gustavo Diaz Ordaz, Quintana Roo, Mexico",25
+18.8667,-99.9167,"Almoloya De Alquisiras, Méco, Mexico",25
+30.95,-110.3,"Cananea, Sonora, Mexico",25
+23.6,-101.25,"Los Muertos, San Luis PotosíX, Mexico",25
+18.45,-95.5333,"Cocina, Veracruz-Llave, Mexico",25
+31.05,-108.067,"Apaches, Chihuahua, Mexico",24
+26.7342,-112.078,"Cabeza De Vaca, Baja California Sur, Mexico",24
+20.7167,-103.4,"Zapopan, Jalisco, Mexico",24
+18.15,-94.4167,"Coatzacoalcos, Veracruz-Llave, Mexico",24
+28.3667,-100.317,"Rancho, Coahuila de Zaragoza, Mexico",24
+25.55,-103.433,"Torreon, Coahuila de Zaragoza, Mexico",23
+18.85,-99.2333,"Temixco, Morelos, Mexico",23
+30.7167,-112.15,"Caborca, Sonora, Mexico",23
+25.5833,-108.3,"Las Americas, Sinaloa, Mexico",23
+29.65,-108.383,"El Norte, Chihuahua, Mexico",23
+22,-99.5333,"El Naranjo, San Luis PotosíX, Mexico",23
+16.8167,-95.0333,"La Llorona, Oaxaca, Mexico",23
+20.4167,-87.3,"Akumal, Quintana Roo, Mexico",22
+28.1333,-109.217,"Tarahumara, Sonora, Mexico",22
+20.6833,-101.35,"Irapuato, Guanajuato, Mexico",22
+25.3667,-103.467,"La Frontera, Durango, Mexico",21
+20.275,-98.9,"El Rincon, Hidalgo, Mexico",21
+26.9833,-102.083,"Venustiano Carranza, Coahuila de Zaragoza, Mexico",21
+15.9144,-96.4469,"Independencia, Oaxaca, Mexico",21
+19.6,-88.7833,"Insurgentes, Quintana Roo, Mexico",21
+23.5,-103.083,"La Plaza, Zacatecas, Mexico",20
+27.2167,-109.283,"El Cholo, Sonora, Mexico",20
+17.2167,-95.0833,"Tortuguero, Oaxaca, Mexico",20
+19.3289,-99.1603,"Coyoacan, Distrito Federal, Mexico",20
+16.3167,-98.0167,"Pinotepa Nacional, Oaxaca, Mexico",20
+23.9333,-102.975,"Alonso Medina, Zacatecas, Mexico",20
+17.1083,-100.333,"Cuauhtemoc, Guerrero, Mexico",19
+23.9167,-106.375,"La Vuelta, Sinaloa, Mexico",19
+18.1667,-100.55,"Santa Rosa De Lima, Guerrero, Mexico",19
+22.2167,-97.85,"Tampico, Tamaulipas, Mexico",19
+16.4167,-97.9167,"Pinotepa, Oaxaca, Mexico",19
+20.85,-86.8667,"Puerto Morelos, Quintana Roo, Mexico",19
+20,-94,"Bay Of Campeche, Mexico (general), Mexico",19
+18.9472,-103.9,"Tecoman, Colima, Mexico",19
+19.4167,-102.067,"Uruapan, Michoacáde Ocampo, Mexico",19
+19.2,-98.9,"Los Reyes, Méco, Mexico",19
+20.3833,-103.833,"Cocula, Jalisco, Mexico",18
+17.2,-100.433,"Atoyac, Guerrero, Mexico",18
+23.3833,-99.4167,"Camino Real, Tamaulipas, Mexico",18
+19.6469,-99.2467,"Cuautitlan Izcalli, Méco, Mexico",18
+16.2833,-95.8833,"Santa Maria Ecatepec, Durango, Mexico",18
+21.3167,-89.4,"San Bruno, YucatáMX, Mexico",18
+28.05,-106.7,"La Reina, Chihuahua, Mexico",18
+30.0667,-107.65,"Jose Garcia, Chihuahua, Mexico",18
+23.4833,-102.25,"Tenango, Zacatecas, Mexico",18
+19.25,-96.8833,"Tenampa, Veracruz-Llave, Mexico",18
+18.2833,-100.267,"Arcelia, Guerrero, Mexico",17
+21.8667,-102.317,"La Huerta, Aguascalientes, Mexico",17
+27.45,-110.1,"Cajeme, Sonora, Mexico",17
+26.1333,-98.5167,"Arturo Flores, Tamaulipas, Mexico",17
+30.7733,-111.119,"La Lomita, Sonora, Mexico",17
+15.35,-92.6667,"Jalapa, Chiapas, Mexico",17
+21.9,-100.017,"San Marcos, San Luis PotosíX, Mexico",17
+19.1833,-102.85,"Tepalcatepec, Michoacáde Ocampo, Mexico",16
+18.9833,-100.333,"El Grande, Méco, Mexico",16
+29.25,-110.05,"Tenari, Sonora, Mexico",16
+30.3167,-106.233,"El Diablo, Chihuahua, Mexico",16
+19.3167,-98.8833,"Ixtapaluca, Méco, Mexico",16
+16.5667,-94.6167,"Niltepec, Oaxaca, Mexico",16
+19.3603,-99.3514,"Huixquilucan, Méco, Mexico",16
+18.6833,-100.083,"Goleta, Méco, Mexico",16
+25.7167,-100.317,"Topo Chico, Nuevo LeóX, Mexico",16
+18.8,-97.1833,"Ciudad Mendoza, Veracruz-Llave, Mexico",16
+17.0333,-95.6,"Acatlan, Oaxaca, Mexico",16
+28.05,-100.583,"Rancho San Diego, Coahuila de Zaragoza, Mexico",16
+18.575,-100.433,"Palos Verdes, Méco, Mexico",15
+25.25,-110.933,"Blackrock, Baja California Sur, Mexico",15
+18.8,-98.95,"Cuautla, Morelos, Mexico",15
+25.3667,-107.517,"Badiraguato, Sinaloa, Mexico",15
+19.35,-99.15,"Churubusco, Distrito Federal, Mexico",15
+18.35,-99.85,"Teloloapan, Guerrero, Mexico",15
+23.7,-103.55,"Marcelina, Zacatecas, Mexico",15
+18.1167,-92.8667,"Tierra Amarilla, Tabasco, Mexico",15
+19.4889,-90.6833,"La Joya, Campeche, Mexico",15
+21.5167,-102.233,"Encarnacion De Diaz, Jalisco, Mexico",14
+14.8333,-92.1833,"Metapa, Chiapas, Mexico",14
+17.85,-92.8417,"El Dorado, Tabasco, Mexico",14
+20.1667,-89.6667,"Chimay, YucatáMX, Mexico",14
+23.3833,-102.4,"Alvarados, Zacatecas, Mexico",14
+25.55,-99.9333,"Hacienda Santa Fe, Nuevo LeóX, Mexico",14
+21.25,-104.417,"Caracol, Jalisco, Mexico",14
+23.3167,-104.883,"El Guero, Durango, Mexico",14
+17.7667,-92.6,"Macuspana, Tabasco, Mexico",14
+17.8833,-99.6667,"Tenantla, Guerrero, Mexico",14
+15.85,-96.7167,"La Toma, Oaxaca, Mexico",14
+17.1333,-93.8,"La Garza, Chiapas, Mexico",14
+26.4,-98.8,"Ciudad Camargo, Tamaulipas, Mexico",14
+19.6833,-101.95,"Cheran, Michoacáde Ocampo, Mexico",14
+22.5333,-102.65,"La Purisima, Zacatecas, Mexico",13
+17.9667,-92.5333,"Corozal, Tabasco, Mexico",13
+21.6708,-104.179,"Los Salazar, Nayarit, Mexico",13
+17.25,-100.683,"Tecpan De Galeana, Guerrero, Mexico",13
+29.1167,-101.833,"El Indio, Coahuila de Zaragoza, Mexico",13
+17.4667,-97.2333,"Nochixtlan, Oaxaca, Mexico",13
+25.5667,-103.5,"Gomez Palacio, Durango, Mexico",13
+27.1,-109.483,"Chihuahuita, Sonora, Mexico",13
+24.355,-99.5603,"Santa Margarita, Tamaulipas, Mexico",13
+21.1,-97.8667,"Las Mesillas, Veracruz-Llave, Mexico",13
+19.9,-104.417,"Mezcala, Jalisco, Mexico",13
+18.5333,-99.55,"Juliantla, Guerrero, Mexico",13
+14.95,-92.1667,"Tuxtla Chico, Chiapas, Mexico",13
+19.4889,-99.1836,"Azcapotzalco, Distrito Federal, Mexico",13
+29.7333,-108.933,"El Charro, Sonora, Mexico",13
+19.3333,-99.2,"Ciudad Universitaria, Distrito Federal, Mexico",13
+27.65,-114.85,"Turtle Bay, Baja California Sur, Mexico",13
+28.7833,-111.6,"Poza Rica, Sonora, Mexico",12
+16.95,-99.3167,"Huamuchapa, Guerrero, Mexico",12
+28,-105.267,"Primitivo, Chihuahua, Mexico",12
+28.3167,-100.417,"San Patricio, Coahuila de Zaragoza, Mexico",12
+22.8333,-106.05,"Agua Dulce, Sinaloa, Mexico",12
+21.2667,-87.75,"Samaria, YucatáMX, Mexico",12
+18.6,-95.6667,"San Juan River, Veracruz-Llave, Mexico",12
+22.6833,-103.667,"Las Casas, Zacatecas, Mexico",12
+19.0333,-98.05,"Amozoc De Mota, Puebla, Mexico",12
+20.55,-100.783,"Camargo, Guanajuato, Mexico",12
+25.3833,-99.8833,"Los Ebanos, Nuevo LeóX, Mexico",12
+20.5667,-100.7,"Apaseo, Guanajuato, Mexico",12
+24.1828,-106.973,"Baila, Sinaloa, Mexico",12
+25.1,-108.133,"Costa Azul, Sinaloa, Mexico",12
+22.8,-99.2,"Chamal, Tamaulipas, Mexico",12
+24.4667,-111.85,"Puerto Cortes, Baja California Sur, Mexico",12
+23.1667,-102.883,"Fresnillo, Zacatecas, Mexico",12
+19.1667,-96.3,"Cabo Verde, Veracruz-Llave, Mexico",12
+23.8833,-100.417,"Tejon, Nuevo LeóX, Mexico",11
+19.6675,-99.8328,"Los Banos, Méco, Mexico",11
+27.3333,-106.167,"El Pollo, Chihuahua, Mexico",11
+19.4222,-98.4889,"Vicente Guerrero, Tlaxcala, Mexico",11
+30.4167,-107.917,"Nuevo Casas Grandes, Chihuahua, Mexico",11
+17.0333,-100.067,"Coyuca De Benitez, Guerrero, Mexico",11
+19,-99.8,"Huayanalco, Méco, Mexico",11
+15.1583,-92.7167,"Rio Arriba, Chiapas, Mexico",11
+22.2,-97.8667,"Anahuac, Veracruz-Llave, Mexico",11
+16.75,-93.1167,"Tuxtla Gutierrez, Chiapas, Mexico",11
+16.4811,-96.0625,"Manteca, Oaxaca, Mexico",11
+23.7,-102.333,"La Margarita, Zacatecas, Mexico",11
+17.95,-94.9167,"Acayucan, Veracruz-Llave, Mexico",11
+24.4914,-106.872,"Agua Caliente, Sinaloa, Mexico",11
+24.6708,-107.689,"Rosa Maria, Sinaloa, Mexico",11
+25.3667,-106.783,"Tijeras, Durango, Mexico",11
+23.75,-100.55,"Mimbres, San Luis PotosíX, Mexico",11
+23.6333,-102.667,"Pedro Rios, Zacatecas, Mexico",11
+19.7989,-99.8744,"Atlacomulco, Méco, Mexico",11
+28.0833,-108.883,"La Reforma, Chihuahua, Mexico",11
+18.35,-114.767,"Rocky Point, Colima, Mexico",11
+31.6667,-106.25,"Lower Valley, Mexico (general), Mexico",11
+26.9,-105.75,"La Jolla, Chihuahua, Mexico",11
+21.8,-100.933,"Villa-Reyes, San Luis PotosíX, Mexico",11
+26.8833,-111.983,"Mulege, Baja California, Mexico",11
+19.4736,-96.8833,"Marco Antonio Munoz, Veracruz-Llave, Mexico",11
+25,-105,"Sierra Madre Occidental, Mexico (general), Mexico",11
+17.9833,-94.5167,"Minatitlan, Veracruz-Llave, Mexico",11
+30.1,-104.683,"Oficina, Chihuahua, Mexico",10
+18.1167,-95.15,"Hueyapan De Ocampo, Veracruz-Llave, Mexico",10
+30.3667,-107.95,"Casas Grandes, Chihuahua, Mexico",10
+25.5333,-103.533,"Lerdo, Durango, Mexico",10
+17.7,-98.9167,"Ahuacuotzingo, Guerrero, Mexico",10
+20.0833,-99.7667,"Fondo, Méco, Mexico",10
+25.45,-105.883,"Pajaritos, Durango, Mexico",10
+17.6,-91.0667,"Apatzingan, Tabasco, Mexico",10
+17.2,-100.733,"Nuxco, Guerrero, Mexico",10
+24.0667,-100.667,"Sierra Nevada, San Luis PotosíX, Mexico",10
+29.3,-100.917,"Ciudad Acuna, Coahuila de Zaragoza, Mexico",10
+32.5486,-115.029,"Tehuantepec, Baja California, Mexico",10
+19.1,-96.1,"Boca Del Rio, Veracruz-Llave, Mexico",10
+20.0167,-100.117,"Contepec, Michoacáde Ocampo, Mexico",10
+31.8667,-116.667,"La Playita, Baja California, Mexico",10
+24.5369,-99.6444,"Jose Delgado, Tamaulipas, Mexico",10
+21.1167,-88.9833,"Las Torres, YucatáMX, Mexico",10
+18.8667,-99.1833,"Jiutepec, Morelos, Mexico",10
+20.9958,-104.475,"Los Altos, Nayarit, Mexico",10
+24.6333,-101.65,"Cerro Gordo, Zacatecas, Mexico",10
+18.7361,-103.719,"El Tamarindo, Colima, Mexico",10
+18.6092,-96.6917,"Tezonapa, Oaxaca, Mexico",10
+26.6589,-99.9472,"Los Santos, Nuevo LeóX, Mexico",10
+23.3833,-100.767,"Arroyo Seco, San Luis PotosíX, Mexico",10
+15.0167,-92.3667,"Huehuetan, Chiapas, Mexico",10
+19.5667,-97.0333,"Mazatepec, Veracruz-Llave, Mexico",10
+28.9,-110.133,"San Fermin, Sonora, Mexico",10
+19.3333,-96.3,"La Antigua, Veracruz-Llave, Mexico",10
+20.3833,-100,"San Juan Del Rio, Queréro de Arteaga, Mexico",9
+18.7833,-99.2333,"Xochiltepec, Morelos, Mexico",9
+19.35,-97.5333,"Texmelucan, Puebla, Mexico",9
+17.6375,-93.725,"Bellas Artes, Tabasco, Mexico",9
+15.8833,-96.9167,"Santa Maria Colotepec, Oaxaca, Mexico",9
+20.6,-97.75,"Huitzilac, Puebla, Mexico",9
+18.9667,-99.6,"Tenancingo, Méco, Mexico",9
+32.5664,-115.432,"Campestre, Baja California, Mexico",9
+20.7,-101.1,"Maria Gomez, Guanajuato, Mexico",9
+23.7,-100.9,"Catorce, San Luis PotosíX, Mexico",9
+29.95,-111.017,"Virgina, Sonora, Mexico",9
+17.85,-94.95,"Correo, Veracruz-Llave, Mexico",9
+16.8833,-92.6,"Chenalho, Chiapas, Mexico",9
+19.3167,-97.65,"Carmela, Tlaxcala, Mexico",9
+19.2,-102.6,"Tomatlan, Michoacáde Ocampo, Mexico",9
+19.775,-87.9417,"Las Estrellas, Quintana Roo, Mexico",9
+22.85,-99.05,"Comandante, Tamaulipas, Mexico",9
+25.35,-98.6667,"Colinas, Nuevo LeóX, Mexico",9
+19.3667,-102.1,"Jucutacato, Michoacáde Ocampo, Mexico",9
+22.2333,-102.1,"Asientos, Aguascalientes, Mexico",9
+19.3333,-102.367,"Tancitaro, Michoacáde Ocampo, Mexico",9
+25.9,-103.317,"Sante Fe, Coahuila de Zaragoza, Mexico",9
+21.9333,-102.418,"Agua Zarca, Aguascalientes, Mexico",9
+20.7917,-98.5069,"Xochimilco, Hidalgo, Mexico",9
+20.2333,-98.1167,"Naupan, Puebla, Mexico",9
+20.6667,-88.5667,"Chichen Itza, YucatáMX, Mexico",9
+25.6833,-100.467,"Santa Catarina, Nuevo LeóX, Mexico",9
+20.775,-105.52,"Punta De Mita, Nayarit, Mexico",8
+30.2167,-115.683,"Red Bluff, Baja California, Mexico",8
+21.55,-105.017,"Libertad, Nayarit, Mexico",8
+19.1581,-99.4897,"Almoloya, Méco, Mexico",8
+19.7333,-99.2333,"La Teja, Méco, Mexico",8
+29.95,-107.067,"El Berrendo, Chihuahua, Mexico",8
+25.8833,-97.8,"Empalme, Tamaulipas, Mexico",8
+17.8333,-98.85,"Olinala, Guerrero, Mexico",8
+25.15,-105.933,"La Placita, Durango, Mexico",8
+28.6833,-111.667,"Francisco Eusebio Kino, Sonora, Mexico",8
+15.8667,-96.4333,"Nueva Era, Oaxaca, Mexico",8
+29.4333,-111.417,"Chapala, Sonora, Mexico",8
+20.0667,-97.8667,"Tlacotepec, Puebla, Mexico",8
+18.0167,-95.2333,"Arriba, Veracruz-Llave, Mexico",8
+25.55,-102.467,"Boquillas, Coahuila de Zaragoza, Mexico",8
+32.1194,-116.885,"La Fonda, Baja California, Mexico",8
+28.05,-109.933,"Las Palomas, Sonora, Mexico",8
+25.5833,-101.25,"Las Vacas, Coahuila de Zaragoza, Mexico",8
+28.0333,-106.467,"Santa Rosalia, Chihuahua, Mexico",8
+20.95,-103.167,"Granjeno, Jalisco, Mexico",8
+29.9833,-104.7,"Jose Martinez, Chihuahua, Mexico",8
+20.3667,-89.7667,"Uxmal, YucatáMX, Mexico",8
+25.4833,-99.4833,"Porvenir, Nuevo LeóX, Mexico",8
+16.0667,-92.8,"Nuestra Senora, Chiapas, Mexico",8
+23.5333,-106.033,"Yanqui, Sinaloa, Mexico",8
+28.8167,-111.7,"Santa Martha, Sonora, Mexico",8
+21.1833,-86.8167,"Puerto Juarez, Quintana Roo, Mexico",8
+22.5833,-105.733,"Cristo Rey, Sinaloa, Mexico",8
+20.0833,-100.817,"Coyotes, Guanajuato, Mexico",8
+23.7153,-110.485,"San Sebastian, Baja California Sur, Mexico",8
+17.8167,-93.95,"Francisco Rueda, Tabasco, Mexico",8
+28.6167,-100.65,"La Fiesta, Coahuila de Zaragoza, Mexico",8
+31.2822,-109.951,"Rancho Cordova, Sonora, Mexico",8
+17.9917,-91.5708,"El Pato, Tabasco, Mexico",8
+24.2,-103.25,"El Tiempo, Zacatecas, Mexico",8
+32.3378,-114.317,"Aquiles Serdan, Sonora, Mexico",8
+22.85,-105.8,"Escuinapa, Sinaloa, Mexico",8
+27.2,-105.233,"Barricada, Chihuahua, Mexico",7
+19.4136,-99.0331,"Netzahualcoyotl, Méco, Mexico",7
+22.15,-102.217,"El Fenix, Aguascalientes, Mexico",7
+25.8267,-99.6561,"San Benito, Nuevo LeóX, Mexico",7
+19.1833,-97.3,"Apizaco, Puebla, Mexico",7
+18.3167,-101.817,"Coahuayutla, Guerrero, Mexico",7
+16.3,-94.1833,"Chahuites, Oaxaca, Mexico",7
+23.4833,-103.883,"Chalchihuites, Zacatecas, Mexico",7
+18.7083,-101.971,"El Chango, Michoacáde Ocampo, Mexico",7
+17.7833,-100.7,"El Coacoyul, Guerrero, Mexico",7
+23.6333,-97.8333,"Tixtla, Tamaulipas, Mexico",7
+21.1667,-86.8333,"Cancun, Quintana Roo, Mexico",7
+31.3667,-106.017,"Placitas, Chihuahua, Mexico",7
+30.3,-107.7,"El Camino, Chihuahua, Mexico",7
+31.3333,-108.833,"Animas Valley, Mexico (general), Mexico",7
+16.5167,-95.9333,"Juan Garcia, Oaxaca, Mexico",7
+19.4794,-99.2383,"Naucalpan, Méco, Mexico",7
+19.9333,-105.267,"El Guayabillo, Jalisco, Mexico",7
+18.8319,-103.867,"Yautepec, Colima, Mexico",7
+24.6456,-107.284,"Duranguito, Sinaloa, Mexico",7
+19.1833,-97.5333,"El Pozo, Puebla, Mexico",7
+25.3833,-103.333,"El Torito, Coahuila de Zaragoza, Mexico",7
+18.5,-103.467,"Ostula, Michoacáde Ocampo, Mexico",7
+19.9892,-99.3197,"Cruz Azul, Hidalgo, Mexico",7
+29.65,-106.317,"El Mocho, Chihuahua, Mexico",7
+16.5167,-93.4833,"Las Delicias, Chiapas, Mexico",7
+16.2153,-92.4889,"Francisco Hernandez, Chiapas, Mexico",7
+18.6667,-95.8833,"Bolsa, Veracruz-Llave, Mexico",7
+22.9,-99.3833,"Las Canoas, Tamaulipas, Mexico",7
+25.8833,-108.45,"La Playa, Sinaloa, Mexico",7
+28.1833,-102.717,"Nueva Italia, Coahuila de Zaragoza, Mexico",7
+15.7667,-92.2667,"Chicomuselo, Chiapas, Mexico",7
+19.1833,-100.133,"Valle De Bravo, Méco, Mexico",7
+21.0233,-100.137,"La Silla, Guanajuato, Mexico",7
+18.9167,-90.7389,"Revolucion, Campeche, Mexico",7
+27.2333,-108.067,"El Colegio, Chihuahua, Mexico",7
+19.5833,-104.533,"Coacoyul, Jalisco, Mexico",7
+32.3333,-116.217,"El Compadre, Baja California, Mexico",7
+24.55,-104.069,"La Carreta, Durango, Mexico",7
+21.1333,-89.5167,"Chicxulub, YucatáMX, Mexico",7
+26.15,-98.3333,"Anzalduas, Tamaulipas, Mexico",7
+31.15,-110.617,"Cajon, Sonora, Mexico",7
+19.7333,-104.4,"Herradura, Jalisco, Mexico",7
+18.7667,-95.8833,"Estero, Veracruz-Llave, Mexico",7
+20.7,-102.35,"Arandas, Jalisco, Mexico",6
+24.4956,-107.72,"El Castillo, Sinaloa, Mexico",6
+31.7833,-108.483,"Los Gatos, Chihuahua, Mexico",6
+27.5333,-105.8,"Guadelupe, Chihuahua, Mexico",6
+19.075,-96.6958,"Matara, Veracruz-Llave, Mexico",6
+28.9833,-103.75,"Matachines, Chihuahua, Mexico",6
+21.5833,-87.0833,"Cabo Catoche, Quintana Roo, Mexico",6
+29.7667,-104.867,"El Yunque, Chihuahua, Mexico",6
+17.4833,-95.3833,"Borracho, Oaxaca, Mexico",6
+25.4667,-108.45,"Tamazula, Sinaloa, Mexico",6
+25.45,-103.3,"Monte Carlo, Coahuila de Zaragoza, Mexico",6
+27,-106.15,"Atascadero, Chihuahua, Mexico",6
+18.6667,-97.0833,"Atlanca, Veracruz-Llave, Mexico",6
+20.7167,-99.3833,"Plutarco Elias Calles, Hidalgo, Mexico",6
+20.85,-99.5833,"El Doctor, Queréro de Arteaga, Mexico",6
+29.9,-111.3,"La Sandia, Sonora, Mexico",6
+27.75,-110.033,"El Arbolillo, Sonora, Mexico",6
+25.4333,-108.617,"San Narciso, Sinaloa, Mexico",6
+28.85,-104.917,"La Yegua, Chihuahua, Mexico",6
+22.2,-99.0667,"Juan Martin, San Luis PotosíX, Mexico",6
+24.5667,-100.667,"San Juan De Dios, Nuevo LeóX, Mexico",6
+22.7333,-98.95,"Ciudad Mante, Tamaulipas, Mexico",6
+23.3333,-98.6167,"San Juanito, Tamaulipas, Mexico",6
+17.9167,-101.833,"Cobano, Guerrero, Mexico",6
+31.5667,-106.95,"El Faro, Chihuahua, Mexico",6
+17.9,-97.4667,"Tlacuache, Oaxaca, Mexico",6
+28.3833,-105.933,"El Encino, Chihuahua, Mexico",6
+16.2667,-93.9667,"La Aurora, Chiapas, Mexico",6
+21.8333,-104.9,"Raton, Nayarit, Mexico",6
+27.2333,-101.233,"Hermanas, Coahuila de Zaragoza, Mexico",6
+29.3667,-107.017,"Campo Santo, Chihuahua, Mexico",6
+21.5833,-103.275,"Los Patricios, Zacatecas, Mexico",6
+24.67,-99.4625,"El Borracho, Tamaulipas, Mexico",6
+19.2167,-90.5667,"Adolfo Lopez Mateos, Campeche, Mexico",6
+22.35,-98.25,"La Michoacana, Veracruz-Llave, Mexico",6
+22.1458,-105.65,"El Famoso, Nayarit, Mexico",6
+19.2167,-102.35,"El Cuate, Michoacáde Ocampo, Mexico",6
+24.56,-99.505,"Francisco Madero, Tamaulipas, Mexico",6
+17.9331,-97.4875,"La Mexicana, Oaxaca, Mexico",6
+27.8333,-107.583,"Bocoyna, Chihuahua, Mexico",6
+22.05,-99.7333,"El Vaquero, San Luis PotosíX, Mexico",6
+22.7833,-105.85,"Los Palos, Sinaloa, Mexico",6
+30.7833,-110.867,"Imuris, Sonora, Mexico",6
+20.25,-103,"Lake Chapala, Mexico (general), Mexico",6
+20.8167,-105.183,"San Juan De Abajo, Jalisco, Mexico",6
+16.6667,-96.3,"Totolapan, Oaxaca, Mexico",6
+20.7167,-105.45,"Bahia De Banderas, Nayarit, Mexico",6
+16.5833,-96.7333,"Ejutla, Oaxaca, Mexico",6
+18.9,-100.15,"Tejupilco, Méco, Mexico",6
+19.7867,-99.3561,"La Loma, Hidalgo, Mexico",6
+32.2256,-116.708,"El Gato, Baja California, Mexico",5
+20.55,-104.833,"Rio De La Plata, Jalisco, Mexico",5
+18.6,-90.1333,"Pablo Garcia, Campeche, Mexico",5
+18.1083,-93.9417,"Jose Maria Morelos, Tabasco, Mexico",5
+15,-92.45,"Chispa, Chiapas, Mexico",5
+19.7,-96.8667,"Miahuatlan, Veracruz-Llave, Mexico",5
+19.85,-102.133,"Chilchota, Michoacáde Ocampo, Mexico",5
+25.9667,-98.7667,"Juan Lopez, Nuevo LeóX, Mexico",5
+18.05,-92.5167,"Mixteca, Tabasco, Mexico",5
+16.0069,-96.2361,"Santiago Xanica, Oaxaca, Mexico",5
+32.0775,-116.524,"Sierra Blanca, Baja California, Mexico",5
+19.3819,-97.8,"El Mirador, Tlaxcala, Mexico",5
+28.0167,-106.183,"Chamizal, Chihuahua, Mexico",5
+19.5167,-98.9167,"San Salvador Atenco, Méco, Mexico",5
+18.0167,-94.6667,"Chinameca, Veracruz-Llave, Mexico",5
+21.2,-102.467,"Jalostotitlan, Jalisco, Mexico",5
+20.4833,-97.0167,"Tecolutla, Veracruz-Llave, Mexico",5
+23.9667,-100.183,"Coloradas, Nuevo LeóX, Mexico",5
+17.7542,-91.5333,"El Nido, Tabasco, Mexico",5
+26.8667,-101.217,"Carrizalejo, Coahuila de Zaragoza, Mexico",5
+20.2,-99.2667,"Tezontepec De Aldama, Hidalgo, Mexico",5
+20.2333,-99.2167,"Mixquiahuala, Hidalgo, Mexico",5
+15.9333,-93.8,"Puerto Arista, Chiapas, Mexico",5
+19.6219,-99.3131,"Nicolas Romero, Méco, Mexico",5
+27.9333,-101,"Riva Palacio, Coahuila de Zaragoza, Mexico",5
+32.1303,-116.782,"Aliso, Baja California, Mexico",5
+27.0833,-105.233,"Huerfano, Chihuahua, Mexico",5
+18.8333,-98.05,"Chiapa, Puebla, Mexico",5
+27.8667,-100.467,"Pelones, Coahuila de Zaragoza, Mexico",5
+21.35,-101.917,"Lagos De Moreno, Jalisco, Mexico",5
+30.8,-110.867,"Yuma, Sonora, Mexico",5
+19.5167,-102.45,"El Pastor, Michoacáde Ocampo, Mexico",5
+19.4167,-103.133,"Valle De Guadalupe, Jalisco, Mexico",5
+21.2283,-100.938,"Los Arcos, Guanajuato, Mexico",5
+18.9667,-98.2833,"Ocoyucan, Puebla, Mexico",5
+21.3,-100.517,"San Luis De La Paz, Guerrero, Mexico",5
+20.1533,-101.125,"La Mojina, Guanajuato, Mexico",5
+20.2833,-102.333,"Tanhuato, Michoacáde Ocampo, Mexico",5
+29.1667,-110.233,"Feliciana, Sonora, Mexico",5
+20.3167,-102.767,"Granjas, Jalisco, Mexico",5
+30.8833,-108.1,"La Joyita, Chihuahua, Mexico",5
+26.3333,-103.967,"Cinco Puntos, Durango, Mexico",5
+18.1083,-93.5042,"Miguel Hidalgo Y Costilla, Tabasco, Mexico",5
+18.4,-101.567,"Maguey, Guerrero, Mexico",5
+19.6208,-99.0069,"Chiconautla, Méco, Mexico",5
+25.2333,-108.167,"Encanto, Sinaloa, Mexico",5
+18.1833,-101.833,"La Parota, Guerrero, Mexico",5
+19.1694,-103.547,"Guaycura, Colima, Mexico",5
+26.1,-107.733,"De Jose, Sinaloa, Mexico",5
+29.7667,-105.767,"El Malpais, Chihuahua, Mexico",5
+23.7,-104.05,"Francisco Javier, Durango, Mexico",5
+19.0131,-99.0964,"Parque, Morelos, Mexico",5
+21.7667,-98.8833,"San Joaquin, San Luis PotosíX, Mexico",5
+19.3833,-97.35,"Quecholac, Puebla, Mexico",5
+19.45,-103.8,"Mazatan, Jalisco, Mexico",5
+25.5167,-99.1833,"Juan Chapa, Nuevo LeóX, Mexico",5
+17.85,-100.083,"Huautla, Guerrero, Mexico",5
+18.45,-97.3833,"Tehuacan, Puebla, Mexico",5
+16.9608,-97.2503,"San Jose Rio Minas, Oaxaca, Mexico",5
+20.75,-97.3167,"Manlio Fabio Altamirano, Veracruz-Llave, Mexico",5
+20.9375,-104.6,"Las Cuevas, Nayarit, Mexico",5
+19.2972,-99.3708,"La Marquesa, Méco, Mexico",5
+20.1833,-97.4833,"Armadillos, Veracruz-Llave, Mexico",5
+20.6333,-103.067,"Zapotlanejo, Jalisco, Mexico",5
+25.5833,-98.9,"Juan Pablo, Nuevo LeóX, Mexico",5
+18.9278,-103.867,"Rancho Grande, Colima, Mexico",5
+25.7667,-103.017,"Bolivar, Coahuila de Zaragoza, Mexico",5
+25.4167,-103.133,"El Barreal, Coahuila de Zaragoza, Mexico",5
+21.0167,-88.3167,"Espita, YucatáMX, Mexico",5
+27.6167,-105.917,"Nariz, Chihuahua, Mexico",5
+16.8194,-91.9167,"Rio Blanco, Chiapas, Mexico",4
+31.3167,-113.533,"Puerto Penasco, Sonora, Mexico",4
+21.7833,-100.983,"Rusia, San Luis PotosíX, Mexico",4
+18.95,-98.15,"Chautla, Puebla, Mexico",4
+23.3125,-109.621,"El Bosque, Baja California Sur, Mexico",4
+18.9667,-101.817,"La Huacana, Michoacáde Ocampo, Mexico",4
+28.3333,-107.467,"Tacuba, Chihuahua, Mexico",4
+20.5167,-104.783,"Mascota, Jalisco, Mexico",4
+20.2,-99.7625,"Doctores, Méco, Mexico",4
+16.5211,-97.905,"Nuevo Progreso, Oaxaca, Mexico",4
+19.5833,-88.05,"Felipe Carillo Puerto, Quintana Roo, Mexico",4
+22.0167,-99.2333,"San Dieguito, San Luis PotosíX, Mexico",4
+28.9333,-106.033,"Santa Ysabel, Chihuahua, Mexico",4
+26.0833,-99.1833,"El Barrio, Nuevo LeóX, Mexico",4
+18.3667,-95.8,"Cosamaloapan, Veracruz-Llave, Mexico",4
+26.92,-108.361,"Descanso, Sinaloa, Mexico",4
+30.4333,-108.583,"Delicias, Chihuahua, Mexico",4
+18.7333,-99.2167,"Atlacholoaya, Morelos, Mexico",4
+18.95,-99.65,"Mexicapan, Méco, Mexico",4
+16.0197,-96.7503,"Cangreja, Oaxaca, Mexico",4
+28.3,-110.65,"Hecho, Sonora, Mexico",4
+27.0167,-105.883,"Juan Mateo, Chihuahua, Mexico",4
+15.65,-92,"Ciudad Cuauhtemoc, Chiapas, Mexico",4
+18.7583,-97.8667,"Dolores Hidalgo, Puebla, Mexico",4
+29.25,-107.417,"Namiquipa, Chihuahua, Mexico",4
+26.8333,-101.917,"Bohemia, Coahuila de Zaragoza, Mexico",4
+18.9,-99.65,"Potrero Nuevo, Méco, Mexico",4
+14.6833,-92.2167,"Silencio, Chiapas, Mexico",4
+26.5833,-107.133,"Tuaripa, Chihuahua, Mexico",4
+22.3333,-102.95,"El Salto, Zacatecas, Mexico",4
+31.3333,-109.083,"Guadalupe Canyon, Mexico (general), Mexico",4
+18.9167,-97.7667,"San Salvador Huixcolotla, Puebla, Mexico",4
+20.7722,-99.6986,"Puerto De La Cruz, Queréro de Arteaga, Mexico",4
+18.975,-91.7833,"Boca Chica, Campeche, Mexico",4
+28.3333,-107.85,"Tomochic, Chihuahua, Mexico",4
+26.5833,-107.4,"Coloradas De La Virgen, Chihuahua, Mexico",4
+20.3833,-101.2,"Valle De Santiago, Guanajuato, Mexico",4
+21.0667,-98.25,"Xochitl, Hidalgo, Mexico",4
+25.4167,-102.183,"Parras De La Fuente, Coahuila de Zaragoza, Mexico",4
+24.9458,-99.3819,"Cerrito Prieto, Nuevo LeóX, Mexico",4
+18.9833,-97.7833,"Acatzingo, Puebla, Mexico",4
+24.4167,-98.0833,"Temazcal, Tamaulipas, Mexico",4
+20.9792,-105.117,"La Palapa, Nayarit, Mexico",4
+29.6,-107.8,"La Casita, Chihuahua, Mexico",4
+15.7333,-96.4667,"Pochutla, Oaxaca, Mexico",4
+17.55,-91.4833,"Usumacinta, Tabasco, Mexico",4
+22.8,-99,"Santa Elena, Tamaulipas, Mexico",4
+20.45,-97.3833,"Tajin, Veracruz-Llave, Mexico",4
+17.6667,-98.5167,"Alpoyeca, Guerrero, Mexico",4
+19.25,-101.033,"Balcones, Michoacáde Ocampo, Mexico",4
+19.3967,-99.0847,"Iztacalco, Distrito Federal, Mexico",4
+16.4667,-98.4167,"Cuajinicuilapa, Guerrero, Mexico",4
+16.8167,-93.4,"La Ventosa, Chiapas, Mexico",4
+24.15,-99.3,"Mapache, Tamaulipas, Mexico",4
+25.5667,-97.7833,"Nueva Victoria, Tamaulipas, Mexico",4
+27.7167,-107.7,"Sono, Chihuahua, Mexico",4
+17.5333,-98.7667,"Cacahuatepec, Guerrero, Mexico",4
+26.2333,-106.3,"Los Portales, Durango, Mexico",4
+20.8167,-89.35,"Bacalar, YucatáMX, Mexico",4
+17.25,-91.2667,"El Progresso, Tabasco, Mexico",4
+17.55,-98.55,"Tlapa De Comonfort, Guerrero, Mexico",4
+24.5133,-99.4,"Pascual Orozco, Tamaulipas, Mexico",4
+22.8667,-104.45,"Tamales, Durango, Mexico",4
+17.865,-90.8691,"El Paisa, Campeche, Mexico",4
+18.4667,-100.567,"Cutzamala, Guerrero, Mexico",4
+19.4,-99.2,"Tacubaya, Distrito Federal, Mexico",4
+17.4167,-99.2167,"Quechultenango, Guerrero, Mexico",4
+21.7167,-98.4333,"Los Monos, Veracruz-Llave, Mexico",4
+26.7167,-108.867,"Casa Vieja, Sonora, Mexico",4
+19.4,-100.367,"Zitacuaro, Michoacáde Ocampo, Mexico",4
+19.3833,-97.6167,"Virreyes, Puebla, Mexico",4
+24.4333,-104.533,"Negra, Durango, Mexico",4
+20.5333,-101.133,"Andres Delgado, Guanajuato, Mexico",4
+27.0333,-104.467,"Sotol, Chihuahua, Mexico",4
+22.3986,-105.457,"Tecuala, Nayarit, Mexico",4
+17.0167,-100.117,"Penjamo, Guerrero, Mexico",4
+16.5417,-92.05,"Justo Sierra, Chiapas, Mexico",4
+31.3833,-115.733,"Los Compadres, Baja California, Mexico",4
+17.9833,-95.4083,"Juan Rodriguez Clara, Veracruz-Llave, Mexico",4
+15.7972,-96.845,"San Bernadino, Oaxaca, Mexico",4
+21.5167,-87.375,"Holbox, Quintana Roo, Mexico",4
+18.4083,-93.1833,"Puerto Ceiba, Tabasco, Mexico",4
+28.2,-108.383,"Chavela, Chihuahua, Mexico",4
+21.9042,-104.342,"La Mesa, Nayarit, Mexico",4
+20.5833,-87.1167,"Xcaret, Quintana Roo, Mexico",4
+17,-96.7667,"Cuilapan, Oaxaca, Mexico",4
+20.5667,-104.517,"Los Pericos, Jalisco, Mexico",4
+17.1833,-97.9667,"San Juan Copala, Oaxaca, Mexico",4
+16.5875,-91.6167,"Luis Espinosa, Chiapas, Mexico",4
+19.5833,-96.7083,"Divina Providencia, Veracruz-Llave, Mexico",4
+25.9167,-97.15,"Rio Grande Del Norte, Mexico (general), Mexico",4
+18.3333,-102.45,"Pucho, Michoacáde Ocampo, Mexico",4
+18.375,-94.8917,"El Negro, Veracruz-Llave, Mexico",4
+32.5644,-115.353,"Ejido Puebla, Baja California, Mexico",4
+24.6333,-102.283,"Rancho Viejo, Zacatecas, Mexico",4
+25.8589,-111.898,"San Benancio, Baja California Sur, Mexico",4
+23.8167,-106.6,"Calavera, Sinaloa, Mexico",4
+26.4667,-99.4333,"Las Velas, Nuevo LeóX, Mexico",4
+14.75,-92.3667,"Tonito, Chiapas, Mexico",4
+23.2833,-98.9333,"La Borrega, Tamaulipas, Mexico",4
+29.75,-114.75,"El Descanso, Baja California, Mexico",4
+17.8667,-94.5333,"Tabasqueno, Veracruz-Llave, Mexico",4
+19.8833,-97.5833,"Zacapoaxtla, Puebla, Mexico",4
+27.8667,-108.8,"Marianos, Chihuahua, Mexico",4
+19.5833,-98.5833,"Calpulalpan, Tlaxcala, Mexico",4
+27.6833,-106.233,"Soco, Chihuahua, Mexico",4
