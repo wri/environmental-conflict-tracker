@@ -17,6 +17,35 @@ This pipeline involves the following steps:
 *  2-scrape: Subset and scrape full text of candidate event articles
 *  3-gold-standard: Create and save a gold standard dataset
 
+## Organization
+
+    |-- data
+        |-- metadata
+            |-- matching
+                |-- month1.pkl # dictionary mapping urls to variables/month{}.csv
+                |-- ...        # because GDELT may extract multiple conflict events per article
+                |-- month12.pkl
+            |-- variables
+                |-- month1.csv all GDELT extracted data on event
+                |-- ...
+                |-- month12.csv
+        |-- texts
+            |-- month1
+                |-- 00000.pkl
+                    |-- doc.title, doc.text, doc.publish_date
+                |-- ...
+                |-- 0000n.pkl
+            |-- month2
+            |-- ...
+            |-- month12
+        |-- urls
+            |-- month1.txt # generated with set(df[url])
+            |-- ...
+            |-- month12.txt
+        |-- gold-standard # contains hand labeled positive class examples
+            |-- gold_standard.csv
+                   |-- month, url, id, class
+
 ## Python scripts
 
 *  scrape.py: `python3 scrape.py --month $MONTH` will subset and scrape a month of data, optionally with `--multiprocessing True` will parallelize the process.
