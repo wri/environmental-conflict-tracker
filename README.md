@@ -11,6 +11,16 @@ This pipeline involves the following steps:
 4.  Using gold standard dataset to be stored in `data/processed/$MONTH/$NAME.txt` to generate a classifier
 5.  Generating maps of conflict events with GDELT geolocation and leaflet
 
+## Notebooks
+
+*  1-download: Download GDELT data for a given country for an input period of time
+*  2-scrape: Subset and scrape full text of candidate event articles
+*  3-gold-standard: Create and save a gold standard dataset
+
+## Python scripts
+
+*  scrape.py: `python3 scrape.py --month $MONTH` will subset and scrape a month of data, optionally with `--multiprocessing True` will parallelize the process.
+
 Project Organization
 ------------
 
