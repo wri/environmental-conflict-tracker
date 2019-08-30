@@ -17,6 +17,15 @@ This pipeline involves the following steps:
 *  2-scrape: Subset and scrape full text of candidate event articles
 *  3-gold-standard: Create and save a gold standard dataset
 
+## Roadmap
+*  Named entity recognition `actor`, `type`, `number`, `action`, `location`, `date`
+*  Actor: farmer, government, trader, smallholder, etc.
+*  Type: Human-wildlife conflict, land tenure, land appropriation, land use rights, water scarcity, resource scarcity, livelihoods, 
+*  Number: number of people affected
+*  Action: Protest, kill, threaten, seize, etc.
+*  Location
+*  Date: Either listed in the article or `date_publish` from the text
+
 ## Organization
 
     |-- data
