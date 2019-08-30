@@ -1,7 +1,15 @@
-gdelt-pilot
+environmental-conflict-tracker
 ==============================
 
-Pilot project for identifying events, themes, actors, and organizations in forest and landscape restoration by mining global newsfeeds through GDELT. 
+Scrape news media articles to identify environmental conflict events such as resource conflict, land appropriation, human-wildlife conflict, and supply chain conflict.
+
+This pipeline involves the following steps:
+
+1.  Pulling all news data in a given country that contains a conflict event
+2.  Keyword extraction of candidate articles from titles of news articles based on regular expression matches to a curated dictionary
+3.  Scraping of full news media text for candidate articles with `NewsPlease`
+4.  Using gold standard dataset to be stored in `data/processed/$MONTH/$NAME.txt` to generate a classifier
+5.  Generating maps of conflict events with GDELT geolocation and leaflet
 
 Project Organization
 ------------
