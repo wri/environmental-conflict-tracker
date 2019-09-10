@@ -50,6 +50,29 @@ We are unclear as to the best methodology to tie conflict events to their jurisd
 
 We aim to create a simple dashboard with leaflet to visualize the geolocated conflict events.
 
+## Getting started
+
+1. Clone this repository
+2. Unzip the files located in `data/texts/*`
+3. Load the gold standard dataset and extract the full text and metadata from the articles
+
+```python
+import pickle
+import pandas as pd
+
+def load_obj(month, idx):
+    month = str(month).zfill(2)
+    idx = str(idx).zfill(5)
+    with open("data/texts/{}/{}.pkl".format(month, idx), "rb") as f:
+        return pickle.load(f)
+    
+gs_articles = {}
+
+for i in range(len(gs)):
+    article = load_obj(gs['month'], gs['ids'])
+    gs_articles[i] = article
+```
+
 ## Organization
 
     |-- data
@@ -59,13 +82,13 @@ We aim to create a simple dashboard with leaflet to visualize the geolocated con
                 |-- ...        # because GDELT may extract multiple conflict events per article
                 |-- month12.pkl
             |-- variables
-                |-- month1.csv all GDELT extracted data on event
+                |-- month1.csv # all GDELT extracted data on event
                 |-- ...
                 |-- month12.csv
         |-- texts
-            |-- month1
+            |-- month1.zip # unzip to create a folder containing the below
                 |-- 00000.pkl
-                    |-- doc.title, doc.text, doc.publish_date
+                    |-- # indexed with doc.title, doc.text, doc.publish_date
                 |-- ...
                 |-- 0000n.pkl
             |-- month2
