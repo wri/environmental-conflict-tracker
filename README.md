@@ -1,8 +1,12 @@
 environmental-conflict-tracker
 ==============================
 
-**TODO**: @johnmbrandt: example jurisictional linkage, identification of typology for matching dictionaries, maybe some sample code to link them together?
-
+**TODO**: @johnmbrandt: 
+*  example jurisictional linkage
+*  identification of typology for matching dictionaries
+*  urls data folder
+*  data/references folder with data/references/acled
+*  data/policy folder with policy.pdf files
 
 This project scrapes news media articles to identify environmental conflict events such as resource conflict, land appropriation, human-wildlife conflict, and supply chain conflict. With an initial focus on India, the project also aims to connect conflict events to their jurisdictional policies to identify how to mediate conflict events or to identify where there is a gap in legislation.
 
