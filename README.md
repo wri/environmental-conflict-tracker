@@ -1,7 +1,7 @@
 environmental-conflict-tracker
 ==============================
 
-This project scrapes news media articles to identify environmental conflict events such as resource conflict, land appropriation, human-wildlife conflict, and supply chain conflict. With an initial focus on India, the project also aims to connect conflict events to their jurisdictional policies to identify how to mediate conflict events or to identify where there is a gap in legislation.
+This project scrapes news media articles to identify environmental conflict events such as resource conflict, land appropriation, human-wildlife conflict, and supply chain conflict. With an initial focus on India, the project also aims to connect conflict events to their jurisdictional policies to identify how to mediate conflict events or to identify where there is a gap in legislation. Currently, the database contains 65,000 candidate news articles about conflict in India, of which around 11,000 are expected to be environmental conflict events.
 
 The data collection involves the following steps:
 
@@ -43,6 +43,10 @@ Although various options exist, we suggest an initial starting point would be to
 ### Jurisdictional policies
 
 We are unclear as to the best methodology to tie conflict events to their jurisdictional policies and are open to suggestions or experimentation. This could be a manually defined algorithm or an NLP matching algorithm. The goal is to use the extracted information to pair a conflict event with a policy that should govern it. This will help highlight the gaps between policy and practice for use in stakeholder engagement.
+
+### Validation
+
+The `data/reference/` folder contains validated data from [ACLED](https://www.acleddata.com) on conflict events in India during 2017. This database refers to all conflict events, not just environmental conflict, but could be used as a baseline for regional level violence, or by keyword extraction.
 
 ### Visualization
 
@@ -106,6 +110,12 @@ match_metadata(gs_sample)
             |-- matching
                 |-- month1.pkl # dictionary mapping urls to variables/month{}.csv
                 |-- ...        # because GDELT may extract multiple conflict events per article
+                               # this is of the form {text/url id: [metadata/variables/month.csv row IDs]}
+                               # {0: [0, 1, 2, 3, 4],
+                               #  1: [5, 6],
+                               #  2: [7, 11],
+                               #  3: [8],
+                               #  4: [9, 10, 12, 13]
                 |-- month12.pkl
             |-- variables
                 |-- month1.csv # all GDELT extracted data on event
@@ -134,8 +144,6 @@ match_metadata(gs_sample)
 
 ## **TODO**: @johnmbrandt: 
 *  example jurisictional linkage
-*  identification of typology for matching dictionaries
 *  urls data folder
-*  data/references folder with data/references/acled
 *  data/policy folder with policy.pdf files
 --------
