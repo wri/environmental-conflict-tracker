@@ -1,13 +1,6 @@
 environmental-conflict-tracker
 ==============================
 
-**TODO**: @johnmbrandt: 
-*  example jurisictional linkage
-*  identification of typology for matching dictionaries
-*  urls data folder
-*  data/references folder with data/references/acled
-*  data/policy folder with policy.pdf files
-
 This project scrapes news media articles to identify environmental conflict events such as resource conflict, land appropriation, human-wildlife conflict, and supply chain conflict. With an initial focus on India, the project also aims to connect conflict events to their jurisdictional policies to identify how to mediate conflict events or to identify where there is a gap in legislation.
 
 The data collection involves the following steps:
@@ -138,4 +131,11 @@ match_metadata(gs_sample)
 ## Python scripts
 
 *  scrape.py: `python3 scrape.py --month $MONTH` will subset and scrape a month of data, optionally with `--multiprocessing True` will parallelize the process.
+
+## **TODO**: @johnmbrandt: 
+*  example jurisictional linkage
+*  identification of typology for matching dictionaries
+*  urls data folder
+*  data/references folder with data/references/acled
+*  data/policy folder with policy.pdf files
 --------
