@@ -1,15 +1,17 @@
 environmental-conflict-tracker
 ==============================
 
-Scrape news media articles to identify environmental conflict events such as resource conflict, land appropriation, human-wildlife conflict, and supply chain conflict.
+**TODO**: @johnmbrandt: example jurisictional linkage, identification of typology for matching dictionaries, maybe some sample code to link them together?
 
-This pipeline involves the following steps:
+
+This project scrapes news media articles to identify environmental conflict events such as resource conflict, land appropriation, human-wildlife conflict, and supply chain conflict. With an initial focus on India, the project also aims to connect conflict events to their jurisdictional policies to identify how to mediate conflict events or to identify where there is a gap in legislation.
+
+The data collection involves the following steps:
 
 1.  Pulling all news data in a given country that contains a conflict event
 2.  Keyword extraction of candidate articles from titles of news articles based on regular expression matches to a curated dictionary
 3.  Scraping of full news media text for candidate articles with `NewsPlease`
-4.  Using gold standard dataset to be stored in `data/processed/$MONTH/$NAME.txt` to generate a classifier
-5.  Generating maps of conflict events with GDELT geolocation and leaflet
+4.  Manual curation of gold standard dataset, stored in `data/gold_standard/`
 
 ## Notebooks
 
@@ -18,13 +20,35 @@ This pipeline involves the following steps:
 *  3-gold-standard: Create and save a gold standard dataset
 
 ## Roadmap
-*  Named entity recognition `actor`, `type`, `number`, `action`, `location`, `date`
+
+The project has been curated to allow participants in the Omdena challenge to tackle a wide range of data science needs. The ultimate end-goal is to generate maps of conflict events with extracted information about their `actors`, `types`, `numbers`, `actions`, `locations`, and `dates`. This extracted information should be paired with metadata about and text from policy documents to identify which policies have jurisdiction over the conflict event.
+
+### Named entity recognition
+
+We are interested in identifying the following entities: `actor`, `type`, `number`, `action`, `location`, `date`, which can be disaggregated as follows:
+
 *  Actor: farmer, government, trader, smallholder, etc.
 *  Type: Human-wildlife conflict, land tenure, land appropriation, land use rights, water scarcity, resource scarcity, livelihoods, 
 *  Number: number of people affected
 *  Action: Protest, kill, threaten, seize, etc.
-*  Location
+*  Location - provided in the `data/metadata/variables/$MONTH.csv`
 *  Date: Either listed in the article or `date_publish` from the text
+
+The named entity recognition process will likely involve metadata extracted from GDELT in the `data/metadata/variables/$MONTH.csv` folder -- containing information about the types of conflict, the actors, the locations, and the dates. However, this extracted information is meant to be noisy and will likely be paired with a manually curated NER pipeline.
+
+### Document classification
+
+Although relying on NER itself may be sufficient, we expect that the data is currently too noisy and candidate articles will need to be extracted prior to performing NER. We have manually curated a small gold standard dataset, in `data/gold-standard`, that contains the `month` and `ids` of news articles that refer to an environmental conflict. These can be paired with the `data/metadata/variables` or `data/texts/$MONTH/$ID.pkl` by using the `data/metadata/matching/$MONTH` dictionary to identify the full text or metadata for each known positive example.
+
+Although various options exist, we suggest an initial starting point would be to generate weakly supervised class labels for the other documents with Snorkel, and to then classify the documents with Snorkel's API. Documents with a probability above a threshold should be selected as candidates for NER.
+
+### Jurisdictional policies
+
+We are unclear as to the best methodology to tie conflict events to their jurisdictional policies and are open to suggestions or experimentation. This could be a manually defined algorithm or an NLP matching algorithm. The goal is to use the extracted information to pair a conflict event with a policy that should govern it. This will help highlight the gaps between policy and practice for use in stakeholder engagement.
+
+### Visualization
+
+We aim to create a simple dashboard with leaflet to visualize the geolocated conflict events.
 
 ## Organization
 
