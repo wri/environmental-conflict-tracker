@@ -15,6 +15,7 @@ The data collection involves the following steps:
 
 ## Notebooks
 
+*  0-quickstart: Inspect the data
 *  1-download: Download GDELT data for a given country for an input period of time
 *  2-scrape: Subset and scrape full text of candidate event articles
 *  3-gold-standard: Create and save a gold standard dataset
@@ -59,18 +60,46 @@ We aim to create a simple dashboard with leaflet to visualize the geolocated con
 ```python
 import pickle
 import pandas as pd
+from newsplease import NewsPlease
 
 def load_obj(month, idx):
     month = str(month).zfill(2)
     idx = str(idx).zfill(5)
     with open("data/texts/{}/{}.pkl".format(month, idx), "rb") as f:
         return pickle.load(f)
+        
+gs = pd.read_csv('../data/gold-standard/gold_standard.csv')
     
 gs_articles = {}
 
 for i in range(len(gs)):
-    article = load_obj(gs['month'], gs['ids'])
+    article = load_obj(gs['month'][i], gs['ids'][i])
     gs_articles[i] = article
+```
+
+4. Load the metadata attached to one of the gold standard articles
+
+```python
+import pickle
+import pandas as pd
+
+def load_dict(month):
+    month = str(month).zfill(2)
+    with open("data/metadata/matching/{}.pkl".format(month), "rb") as f:
+        return pickle.load(f)
+
+gs = pd.read_csv('../data/gold-standard/gold_standard.csv')
+gs_sample = gs.iloc[1]
+
+def match_metadata(gs_sample):
+    month = str(gs_sample['month']).zfill(2)
+    idx = gs_sample['ids']
+    matching_dictionary = load_dict(month)
+    print('This sample matches these rows in {}.csv: {}'.format(month, matching_dictionary[idx]))
+    df = pd.read_csv("../data/metadata/variables/{}.csv".format(month))
+    return df.iloc[matching_dictionary[idx]]
+    
+match_metadata(gs_sample)
 ```
 
 ## Organization
