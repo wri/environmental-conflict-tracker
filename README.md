@@ -145,5 +145,4 @@ match_metadata(gs_sample)
 ## **TODO**: @johnmbrandt: 
 *  example jurisictional linkage
 *  urls data folder
-*  data/policy folder with policy.pdf files
 --------
