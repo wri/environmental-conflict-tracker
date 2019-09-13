@@ -21,6 +21,15 @@ The data collection involves the following steps:
 
 The project has been curated to allow participants in the Omdena challenge to tackle a wide range of data science needs. The ultimate end-goal is to generate maps of conflict events with extracted information about their `actors`, `types`, `numbers`, `actions`, `locations`, and `dates`. This extracted information should be paired with metadata about and text from policy documents to identify which policies have jurisdiction over the conflict event.
 
+### List of potential tasks as a starting point
+
+*  Coreference resolution
+*  Data subsetting to remove false positives
+*  Identifying news articles that refer to the same conflict event
+*  Named entity recognition
+*  PDF document processing
+*  Sentence similarity between conflict event and policy sections
+
 ### Named entity recognition
 
 We are interested in identifying the following entities: `actor`, `type`, `number`, `action`, `location`, `date`, which can be disaggregated as follows:
@@ -33,6 +42,8 @@ We are interested in identifying the following entities: `actor`, `type`, `numbe
 *  Date: Either listed in the article or `date_publish` from the text
 
 The named entity recognition process will likely involve metadata extracted from GDELT in the `data/metadata/variables/$MONTH.csv` folder -- containing information about the types of conflict, the actors, the locations, and the dates. However, this extracted information is meant to be noisy and will likely be paired with a manually curated NER pipeline.
+
+The highest priority entity is the `type` of conflict. `Location` and `Date` should be provided by the GDELT metadata `data/metadata/variables`. `Action` may be provided by the GDELT metadata through the [CAMEO codebook](http://data.gdeltproject.org/documentation/CAMEO.Manual.1.1b3.pdf) but should be verified. `Number` and `Actor` are going to be difficult to identify and will likely need an implementation of coreference resolution.
 
 ### Document classification
 
@@ -102,6 +113,16 @@ def match_metadata(gs_sample):
     
 match_metadata(gs_sample)
 ```
+
+## Important references
+*  [GDELT](https://www.gdeltproject.org)
+*  [CAMEO codebook](http://data.gdeltproject.org/documentation/CAMEO.Manual.1.1b3.pdf)
+*  [Land Conflict Watch](https://www.landconflictwatch.org)
+*  [WRI Restoration](https://www.wri.org/our-work/project/global-restoration-initiative)
+*  [Global forest watch](https://www.globalforestwatch.org)
+*  [Flair NER](https://github.com/zalandoresearch/flair)
+*  [SpaCy NER](https://spacy.io/api/entityrecognizer/)
+*  [Coreference resolution](https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-for-chatbots-3302365dcf30)
 
 ## Organization
 
