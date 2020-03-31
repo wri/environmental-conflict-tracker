@@ -1,14 +1,15 @@
 environmental-conflict-tracker
 ==============================
 
-This project scrapes news media articles to identify environmental conflict events such as resource conflict, land appropriation, human-wildlife conflict, and supply chain conflict. With an initial focus on India, the project also aims to connect conflict events to their jurisdictional policies to identify how to mediate conflict events or to identify where there is a gap in legislation. Currently, the database contains 65,000 candidate news articles about conflict in India, of which around 11,000 are expected to be environmental conflict events.
+This project aims to develop globally relevant indices of environmental conflict at a subnational scale by reading through millions of news articles every day and identifying and locating events. Environmental conflict can occur through conflicts over resources, land, wildlife, or supply chains. Currently, the database contains 65,000 candidate news articles about conflict in India, of which around 11,000 are expected to be environmental conflict events.
 
 The data collection involves the following steps:
 
-1.  Pulling all news data in a given country that contains a conflict event
+1.  Identifying all news data in a given country that contains a conflict event
 2.  Keyword extraction of candidate articles from titles of news articles based on regular expression matches to a curated dictionary
 3.  Scraping of full news media text for candidate articles with `NewsPlease`
 4.  Manual curation of gold standard dataset, stored in `data/gold_standard/`
+5.  Coreference resolution and standard text preprocessing.
 
 ## Notebooks
 
@@ -19,20 +20,16 @@ The data collection involves the following steps:
 
 ## Roadmap
 
-The project has been curated to allow participants in the Omdena challenge to tackle a wide range of data science needs. The ultimate end-goal is to generate maps of conflict events with extracted information about their `actors`, `types`, `numbers`, `actions`, `locations`, and `dates`. This extracted information should be paired with metadata about and text from policy documents to identify which policies have jurisdiction over the conflict event.
+The desired output of this project are maps of conflict events with extracted information about their `actors`, `types`, `numbers`, `actions`, `locations`, and `dates`.
 
-### List of potential tasks as a starting point
+### List of upcoming tasks
 
-*  Coreference resolution
 *  Data subsetting to remove false positives
 *  Identifying news articles that refer to the same conflict event
-*  Named entity recognition
-*  PDF document processing
-*  Sentence similarity between conflict event and policy sections
 
 ### Named entity recognition
 
-We are interested in identifying the following entities: `actor`, `type`, `number`, `action`, `location`, `date`, which can be disaggregated as follows:
+This project identifies the following entities: `actor`, `type`, `number`, `action`, `location`, `date`, which can be disaggregated as follows:
 
 *  Actor: farmer, government, trader, smallholder, etc.
 *  Type: Human-wildlife conflict, land tenure, land appropriation, land use rights, water scarcity, resource scarcity, livelihoods, 
@@ -162,8 +159,4 @@ match_metadata(gs_sample)
 ## Python scripts
 
 *  scrape.py: `python3 scrape.py --month $MONTH` will subset and scrape a month of data, optionally with `--multiprocessing True` will parallelize the process.
-
-## **TODO**: @johnmbrandt: 
-*  example jurisictional linkage
-*  urls data folder
 --------
