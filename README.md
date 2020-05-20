@@ -22,6 +22,24 @@ TBD.
 3.  Scraping of full news media text for candidate articles with `NewsPlease`
 4.  Coreference resolution and standard text preprocessing, such as stop word removal and lemmatization
 
+The data is stored as a JSON like so:
+
+```javascript
+{ "id": "00001",
+  "country": "IN",
+  "url": "https://",
+  "date": "MM-DD-YYYY",
+  "full_text": string,
+  "article_title": string,
+  "number_actions": int,
+  "actions": {
+      1: {'latitude', 'longitude', 'action_type', "goldstein", ...},
+      2: {'latitude', 'longitude', 'action_type', "goldstein", ...},
+      3: {'latitude', 'longitude', 'action_type', "goldstein", ...},
+          },
+  }
+```
+
 ## Data - Outputs
 
 This project identifies the following entities: `actor`, `type`, `number`, `action`, `location`, `date`, which can be disaggregated as follows:
