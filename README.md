@@ -64,9 +64,9 @@ The external output is a monthly index of environmental conflict by subnational 
 
 ## Methodology
 
-*  [CorEx Topic model](https://arxiv.org/abs/1611.10277)
-*  [RoBERTa classifier](https://arxiv.org/abs/1907.11692)
-*  [Named entity recognition](https://spacy.io/api/entityrecognizer)
+*  **[RoBERTa classifier](https://arxiv.org/abs/1907.11692)**: Classify articles into conflict / no conflict
+*  **[CorEx Topic model](https://arxiv.org/abs/1611.10277)**: For conflict articles, identify type of conflict
+*  **[Named entity recognition](https://spacy.io/api/entityrecognizer)**: For conflict articles, identify actor, action, date, and location.
 
 ## Validation
 
