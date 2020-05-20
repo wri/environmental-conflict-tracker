@@ -8,6 +8,7 @@ import pickle
 import os
 import tensorflow as tf
 from typing import List, Any
+import argparse
 
 relevant_words = ['land', 'forest', 'agriculture', 
                   'farm', 'farmer', 'plantation', 'agrarian',
@@ -90,7 +91,7 @@ def save_obj(obj: Any, name: str, folder: str) -> None:
         
 def download_url(url: str) -> None:
     try:
-        article = NewsPlease.from_url(urls[url])
+        article = NewsPlease.from_url(urls[url], timeout=10)
         save_obj(article, str(url).zfill(5), text_output_folder)
         return 1
     except Exception as ex:
@@ -98,25 +99,34 @@ def download_url(url: str) -> None:
         return 0
 
 if __name__ == "__main__":
-	year = str(2019)
-	month = str(01)
-	country = "indonesia"
-	text_output_folder = "../data/{}/text/{}/{}/".format(country, str(year), str(month).zfill(2))
-
-	print("Loading {} - {}/{}".format(country, month, year))
-	df = pd.read_csv("../data/{}/metadata/{}/{}.csv".format(country, year, month.zfill(2)))
-    urls = df['to_scrape'].unique()
-
-	mapping_dictionary = {}
-	for i, val in enumerate(urls):
-	    match = df.index[df['to_scrape'] == urls[i]].tolist()
-	    mapping_dictionary[i] = match 
+  parser = argparse.ArgumentParser()
+  parser.add_argument("--month", help = "Calendar month to scrpae", required=True)
+  args = parser.parse_args()
 
 
-	existing_texts = [for x in os.listdir(text_output_folder) if ".DS" not in x]
-	to_download = [x for x in range(0, len(urls)) if x not in existing_texts]
-	print("Beginning download of {} texts to {}".format(len(to_download)), text_output_folder)
-	pool = multiprocessing.Pool(16)
-	zip(*pool.map(download_url, to_download)) 
-	pool.close()
-	pool.join()
+  year = str(2017)
+  month = str(args.month).zfill(2)
+  country = "indonesia"
+  text_output_folder = "../data/{}/text/{}/{}/".format(country, str(year), str(month).zfill(2))
+
+  print("Loading {} - {}/{}".format(country, month, year))
+  df = pd.read_csv("../data/{}/metadata/{}/{}.csv".format(country, year, month.zfill(2)))
+  urls = df['to_scrape'].unique()
+
+  mapping_dictionary = {}
+  for i, val in enumerate(urls):
+      match = df.index[df['to_scrape'] == urls[i]].tolist()
+      mapping_dictionary[i] = match 
+
+
+  existing_texts = [x[:-4] for x in os.listdir(text_output_folder) if ".DS" not in x]
+  to_download = [x for x in range(0, len(urls)) if str(x).zfill(5) not in existing_texts]
+
+  print("Beginning download of {} texts to {}".format(len(to_download), text_output_folder))
+  for idx, url in enumerate(to_download[0:]):
+    print(idx)
+    download_url(url)
+  #pool = multiprocessing.Pool(16)
+  #zip(*pool.map(download_url, to_download)) 
+  #pool.close()
+  #pool.join()
