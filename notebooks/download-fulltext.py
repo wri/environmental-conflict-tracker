@@ -104,9 +104,9 @@ if __name__ == "__main__":
   args = parser.parse_args()
 
 
-  year = str(2017)
+  year = str(2019)
   month = str(args.month).zfill(2)
-  country = "indonesia"
+  country = "brazil"
   text_output_folder = "../data/{}/text/{}/{}/".format(country, str(year), str(month).zfill(2))
 
   print("Loading {} - {}/{}".format(country, month, year))
