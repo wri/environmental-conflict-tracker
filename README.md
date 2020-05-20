@@ -7,7 +7,12 @@ This project develops a globally relevant index of environmental conflict at a s
 
 # Installation
 
-TBD.
+**Note: The Docker container is not yet released, as the project is still in early stage.**
+
+```
+docker pull johnbrandtwri/environmental_conflict_tracker:latest
+docker run -p 8888:8888 johnbrandtwri/environmental_conflict_tracker
+```
 
 # Usage
 
@@ -17,9 +22,9 @@ TBD.
 
 ## Data - Inputs
 
-1.  Identifying all news data in a given country that contains a conflict event from [GDELT](https://www.gdeltproject.org/)
-2.  Keyword extraction of candidate articles from titles of news articles based on regular expression matches to a curated dictionary
-3.  Scraping of full news media text for candidate articles with `NewsPlease`
+1.  Identify all news data in a given country that contains a conflict event from [GDELT](https://www.gdeltproject.org/)
+2.  Extract candidate articles from titles of news articles based on regular expression matches to a curated dictionary
+3.  Scrape full news media text for candidate articles with `NewsPlease`
 4.  Coreference resolution and standard text preprocessing, such as stop word removal and lemmatization
 
 The data is stored as a JSON like so:
@@ -40,7 +45,7 @@ The data is stored as a JSON like so:
   }
 ```
 
-## Data - Outputs
+## Data - Internal outputs
 
 This project identifies the following entities: `actor`, `type`, `number`, `action`, `location`, `date`, which can be disaggregated as follows:
 
@@ -53,16 +58,19 @@ This project identifies the following entities: `actor`, `type`, `number`, `acti
 
 The highest priority entity is the `type` of conflict. `Location` and `Date` should be provided by the GDELT metadata `data/metadata/variables`. `Action` may be provided by the GDELT metadata through the [CAMEO codebook](http://data.gdeltproject.org/documentation/CAMEO.Manual.1.1b3.pdf) but should be verified. `Number` and `Actor` are going to be difficult to identify and will likely need an implementation of coreference resolution.
 
+## Data - External outputs
+
+The external output is a monthly index of environmental conflict by subnational jurisdiction. The methodology for this is TBD.
+
 ## Methodology
 
 *  [CorEx Topic model](https://arxiv.org/abs/1611.10277)
 *  [RoBERTa classifier](https://arxiv.org/abs/1907.11692)
 *  [Named entity recognition](https://spacy.io/api/entityrecognizer)
 
-### Validation
+## Validation
 
-The `data/reference/` folder contains validated data from [ACLED](https://www.acleddata.com) on conflict events in India during 2017. This database refers to all conflict events, not just environmental conflict, but could be used as a baseline for regional level violence, or by keyword extraction.
-
+TBD. 
 
 ## Important references
 *  [GDELT](https://www.gdeltproject.org)
@@ -76,40 +84,4 @@ The `data/reference/` folder contains validated data from [ACLED](https://www.ac
 
 ## Organization
 
-    |-- data
-        |-- metadata
-            |-- matching
-                |-- month1.pkl # dictionary mapping urls to variables/month{}.csv
-                |-- ...        # because GDELT may extract multiple conflict events per article
-                               # this is of the form {text/url id: [metadata/variables/month.csv row IDs]}
-                               # {0: [0, 1, 2, 3, 4],
-                               #  1: [5, 6],
-                               #  2: [7, 11],
-                               #  3: [8],
-                               #  4: [9, 10, 12, 13]
-                |-- month12.pkl
-            |-- variables
-                |-- month1.csv # all GDELT extracted data on event
-                |-- ...
-                |-- month12.csv
-        |-- texts
-            |-- month1.zip # unzip to create a folder containing the below
-                |-- 00000.pkl
-                    |-- # indexed with doc.title, doc.text, doc.publish_date
-                |-- ...
-                |-- 0000n.pkl
-            |-- month2
-            |-- ...
-            |-- month12
-        |-- urls
-            |-- month1.txt # generated with set(df[url])
-            |-- ...
-            |-- month12.txt
-        |-- gold-standard # contains hand labeled positive class examples
-            |-- gold_standard.csv
-                   |-- month, url, id, class
-
-## Python scripts
-
-*  scrape.py: `python3 scrape.py --month $MONTH` will subset and scrape a month of data, optionally with `--multiprocessing True` will parallelize the process.
---------
+TBD.
