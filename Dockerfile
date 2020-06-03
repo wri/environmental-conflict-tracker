@@ -8,7 +8,7 @@ ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 
 RUN apt-get update -y && apt-get install --no-install-recommends -y -q \
     ca-certificates gcc libffi-dev wget unzip git openssh-client gnupg curl \
-    python-dev python-setuptools
+    python3-dev python3-setuptools
 
 # Trick to let tensorflow-gpu work on CPU
 RUN ln -s /usr/local/cuda/lib64/stubs/libcuda.so /usr/local/cuda/lib64/stubs/libcuda.so.1 && \
