@@ -100,11 +100,11 @@ def download_url(url: str) -> None:
 
 if __name__ == "__main__":
   parser = argparse.ArgumentParser()
-  parser.add_argument("--month", help = "Calendar month to scrpae", required=True)
+  parser.add_argument("--month", help = "Calendar month to scrape", required=True)
   args = parser.parse_args()
 
 
-  year = str(2019)
+  year = str(2017)
   month = str(args.month).zfill(2)
   country = "brazil"
   text_output_folder = "../data/{}/text/{}/{}/".format(country, str(year), str(month).zfill(2))
